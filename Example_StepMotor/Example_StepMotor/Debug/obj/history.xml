@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_StepMotor\stm_lib\inc -I..\..\..\workspace\Example_StepMotor\cmsis -I..\..\..\workspace\Example_StepMotor -I..\..\..\workspace -I..\..\..\workspace\Example_StepMotor\stm_lib -I..\..\..\workspace\Example_StepMotor\cmsis_boot">
+      <target file="stm32f10x_rcc.o" lastModified="15697515ad8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156938f9c4e"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="156975159bf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156938f9bd1"/>
+      </target>
+      <target file="misc.o" lastModified="15697515b26">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15693902014"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15697515838">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156938f9c0f"/>
+      </target>
+      <target file="main.o" lastModified="15697515a6b">
+         <source file="..\..\..\main.c" lastModified="15693b4fefc"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15697515a1d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156938f9bc1"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="156975157bb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="156938fa372"/>
+      </target>
+   </processor>
+</history>

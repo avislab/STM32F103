@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_ADC_Injected.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_Injected -TC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_Injected/arm-gcc-link.ld -g">
+      <target file="Example_ADC_Injected.elf" lastModified="15697409bad">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1564af129db"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1564af12a19"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1564af12ac5"/>
+         <source file="..\obj\main.o" lastModified="1569740989f"/>
+         <source file="..\obj\printf.o" lastModified="1564af12c0d"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1564af12c7a"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1564af12d07"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1564af12d74"/>
+         <source file="..\obj\misc.o" lastModified="1564af12dc3"/>
+      </target>
+   </processor>
+</history>

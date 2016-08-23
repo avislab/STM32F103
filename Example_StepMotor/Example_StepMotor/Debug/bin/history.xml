@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_StepMotor.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_StepMotor -TC:\CooCox\CoIDE\configuration\ProgramData\Example_StepMotor/arm-gcc-link.ld -g">
+      <target file="Example_StepMotor.elf" lastModified="15697515d0b">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="156975157bb"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15697515838"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="156975159bf"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15697515a1d"/>
+         <source file="..\obj\main.o" lastModified="15697515a6b"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15697515ad8"/>
+         <source file="..\obj\misc.o" lastModified="15697515b26"/>
+      </target>
+   </processor>
+</history>
