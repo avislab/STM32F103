@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PPM.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PPM -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PPM/arm-gcc-link.ld -g">
+      <target file="Example_PPM.elf" lastModified="156d64bf508">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="156d64afda8"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="156d64afe44"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="156d64afed0"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="156d64aff2e"/>
+         <source file="..\obj\main.o" lastModified="156d64bf314"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="156d64b02d8"/>
+         <source file="..\obj\syscalls.o" lastModified="156d64b046e"/>
+      </target>
+   </processor>
+</history>
