@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_PWM_Sound\stm_lib\inc -I..\..\..\workspace\Example_PWM_Sound\cmsis -I..\..\..\workspace\Example_PWM_Sound -I..\..\..\workspace -I..\..\..\workspace\Example_PWM_Sound\stm_lib -I..\..\..\workspace\Example_PWM_Sound\cmsis_boot">
+      <target file="stm32f10x_rcc.o" lastModified="156698d9b59">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15659727c8d"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="156698d99a4">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15659727bf0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="156698d9927">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15659727c2f"/>
+      </target>
+      <target file="main.o" lastModified="156698dc69f">
+         <source file="..\..\..\main.c" lastModified="156698dc41f"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="156698d98d8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15659727be1"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="156698d9a11">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1565972894e"/>
+      </target>
+   </processor>
+</history>

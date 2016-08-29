@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWM_Servo.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWM_Servo -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWM_Servo/arm-gcc-link.ld -g">
+      <target file="Example_PWM_Servo.elf" lastModified="15669c6c93a">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15669c50f36"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15669c50f84"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15669c5106e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15669c51197"/>
+         <source file="..\obj\main.o" lastModified="15669c6c6f8"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15669c51262"/>
+         <source file="..\obj\misc.o" lastModified="15669c512b0"/>
+      </target>
+   </processor>
+</history>

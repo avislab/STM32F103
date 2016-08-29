@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_TIM_Time\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Example_TIM_Time -I..\..\..\workspace\Example_TIM_Time\cmsis -I..\..\..\workspace\Example_TIM_Time\stm_lib -I..\..\..\workspace\Example_TIM_Time\stm_lib\inc">
+      <target file="stm32f10x_tim.o" lastModified="156c5a9dc76">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15679a11276"/>
+      </target>
+      <target file="printf.o" lastModified="156c5a9df73">
+         <source file="..\..\..\stdio\printf.c" lastModified="15679ad94fa"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="156c5a9dcd3">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15679a11286"/>
+      </target>
+      <target file="main.o" lastModified="156d580e9e7">
+         <source file="..\..\..\main.c" lastModified="156d57f43e8"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="156c5a9ddfc">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15679a11d34"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="156c5a9e05e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15679a12ea9"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="156c5a9dfe1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15679a11286"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="156c5a9dd41">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15679a11276"/>
+      </target>
+      <target file="misc.o" lastModified="156c5a9e0ac">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15679a1d0d5"/>
+      </target>
+   </processor>
+</history>

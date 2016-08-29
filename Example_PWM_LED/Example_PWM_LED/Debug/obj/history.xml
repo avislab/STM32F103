@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_PWM_LED\cmsis_boot -I..\..\..\workspace\Example_PWM_LED\stm_lib -I..\..\..\workspace -I..\..\..\workspace\Example_PWM_LED\stm_lib\inc -I..\..\..\workspace\Example_PWM_LED\cmsis -I..\..\..\workspace\Example_PWM_LED">
+      <target file="stm32f10x_rcc.o" lastModified="156596c355f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1565595d3a0"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="156596c3436">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1565595d296"/>
+      </target>
+      <target file="misc.o" lastModified="156596c35ad">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156559609e3"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="156596c32de">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1565595d2e5"/>
+      </target>
+      <target file="main.o" lastModified="156d58297d6">
+         <source file="..\..\..\main.c" lastModified="156d582919c"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="156596c3494">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1565595d258"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="156596c3290">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1565595ddd1"/>
+      </target>
+   </processor>
+</history>

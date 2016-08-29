@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWM_RGB.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWM_RGB -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWM_RGB/arm-gcc-link.ld -g">
+      <target file="Example_PWM_RGB.elf" lastModified="156d5831004">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1567dee73e4"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1567dee7461"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1567dee7607"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1567dee7684"/>
+         <source file="..\obj\main.o" lastModified="156d5830a95"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1567dee776f"/>
+         <source file="..\obj\misc.o" lastModified="1567dee77bd"/>
+      </target>
+   </processor>
+</history>

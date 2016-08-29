@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_TIM_CLK.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_TIM_CLK -TC:\CooCox\CoIDE\configuration\ProgramData\Example_TIM_CLK/arm-gcc-link.ld -g">
+      <target file="Example_TIM_CLK.elf" lastModified="156c5a530e7">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="156796b1711"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="156796b175f"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="156796b1868"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="156796b18c6"/>
+         <source file="..\obj\main.o" lastModified="156c5a52ba7"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="156796b1982"/>
+         <source file="..\obj\misc.o" lastModified="156796b19d0"/>
+      </target>
+   </processor>
+</history>
