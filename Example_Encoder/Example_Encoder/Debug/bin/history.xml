@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_Encoder.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_Encoder -TC:\CooCox\CoIDE\configuration\ProgramData\Example_Encoder/arm-gcc-link.ld -g">
+      <target file="Example_Encoder.elf" lastModified="156f97b5a41">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="156f977dc84"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="156f977dd20"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="156f977ddeb"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="156f977df82"/>
+         <source file="..\obj\main.o" lastModified="156f97b563a"/>
+         <source file="..\obj\printf.o" lastModified="156f977e1f3"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="156f977e29e"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="156f977e35a"/>
+         <source file="..\obj\syscalls.o" lastModified="156f977e3b8"/>
+         <source file="..\obj\misc.o" lastModified="156f977e415"/>
+      </target>
+   </processor>
+</history>

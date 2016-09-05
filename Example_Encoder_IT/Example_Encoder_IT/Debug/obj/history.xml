@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_Encoder_IT\stm_lib -I..\..\..\workspace\Example_Encoder_IT\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Example_Encoder_IT\cmsis -I..\..\..\workspace\Example_Encoder_IT\stm_lib\inc -I..\..\..\workspace\Example_Encoder_IT">
+      <target file="syscalls.o" lastModified="156f97fc06a">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156f8de1091"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="156f97fb9f1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="156f8deb993"/>
+      </target>
+      <target file="printf.o" lastModified="156f97fbeb4">
+         <source file="..\..\..\stdio\printf.c" lastModified="156f9280e47"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="156f97fba5f">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156f8deb9b2"/>
+      </target>
+      <target file="main.o" lastModified="156f97fbd2e">
+         <source file="..\..\..\main.c" lastModified="156f97fb57d"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="156f97fbcb1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156f8e26a66"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="156f97fc01c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="156f8f19f67"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="156f97fbf60">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156f8deb9e1"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="156f97fbb78">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156f8deb9a2"/>
+      </target>
+      <target file="misc.o" lastModified="156f97fc0c7">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156f8e1e826"/>
+      </target>
+   </processor>
+</history>
