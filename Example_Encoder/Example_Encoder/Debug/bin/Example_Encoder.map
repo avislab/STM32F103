@@ -671,25 +671,25 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_Encoder.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x7230
+.debug_info     0x00000000     0x722b
  .debug_info    0x00000000     0x2531 ..\obj\stm32f10x_tim.o
  .debug_info    0x00002531      0x4c4 ..\obj\system_stm32f10x.o
  .debug_info    0x000029f5      0x122 ..\obj\startup_stm32f10x_md.o
  .debug_info    0x00002b17      0x88f ..\obj\stm32f10x_gpio.o
- .debug_info    0x000033a6      0x999 ..\obj\main.o
- .debug_info    0x00003d3f     0x2089 ..\obj\printf.o
- .debug_info    0x00005dc8      0x942 ..\obj\stm32f10x_rcc.o
- .debug_info    0x0000670a      0xb26 ..\obj\stm32f10x_usart.o
+ .debug_info    0x000033a6      0x994 ..\obj\main.o
+ .debug_info    0x00003d3a     0x2089 ..\obj\printf.o
+ .debug_info    0x00005dc3      0x942 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00006705      0xb26 ..\obj\stm32f10x_usart.o
 
-.debug_abbrev   0x00000000     0x10ee
+.debug_abbrev   0x00000000     0x10e7
  .debug_abbrev  0x00000000      0x2b3 ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x000002b3      0x16e ..\obj\system_stm32f10x.o
  .debug_abbrev  0x00000421       0xdf ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x00000500      0x200 ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x00000700      0x205 ..\obj\main.o
- .debug_abbrev  0x00000905      0x397 ..\obj\printf.o
- .debug_abbrev  0x00000c9c      0x26e ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000f0a      0x1e4 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x00000700      0x1fe ..\obj\main.o
+ .debug_abbrev  0x000008fe      0x397 ..\obj\printf.o
+ .debug_abbrev  0x00000c95      0x26e ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000f03      0x1e4 ..\obj\stm32f10x_usart.o
 
 .debug_loc      0x00000000     0x7fdc
  .debug_loc     0x00000000     0x23d1 ..\obj\stm32f10x_tim.o
