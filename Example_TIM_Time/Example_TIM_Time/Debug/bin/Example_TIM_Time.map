@@ -672,27 +672,27 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_TIM_Time.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x57f9
+.debug_info     0x00000000     0x57c9
  .debug_info    0x00000000     0x1c60 ..\obj\stm32f10x_tim.o
  .debug_info    0x00001c60      0x49c ..\obj\system_stm32f10x.o
  .debug_info    0x000020fc       0xee ..\obj\startup_stm32f10x_md.o
  .debug_info    0x000021ea      0x6f6 ..\obj\stm32f10x_gpio.o
- .debug_info    0x000028e0      0x8f3 ..\obj\main.o
- .debug_info    0x000031d3      0xe3d ..\obj\printf.o
- .debug_info    0x00004010      0x8a3 ..\obj\stm32f10x_rcc.o
- .debug_info    0x000048b3      0x9f0 ..\obj\stm32f10x_usart.o
- .debug_info    0x000052a3      0x556 ..\obj\misc.o
+ .debug_info    0x000028e0      0x8c3 ..\obj\main.o
+ .debug_info    0x000031a3      0xe3d ..\obj\printf.o
+ .debug_info    0x00003fe0      0x8a3 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00004883      0x9f0 ..\obj\stm32f10x_usart.o
+ .debug_info    0x00005273      0x556 ..\obj\misc.o
 
-.debug_abbrev   0x00000000      0xdf0
+.debug_abbrev   0x00000000      0xdc1
  .debug_abbrev  0x00000000      0x1b2 ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x000001b2      0x14e ..\obj\system_stm32f10x.o
  .debug_abbrev  0x00000300       0xa7 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000003a7      0x1cc ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x00000573      0x1b4 ..\obj\main.o
- .debug_abbrev  0x00000727      0x262 ..\obj\printf.o
- .debug_abbrev  0x00000989      0x1bc ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000b45      0x164 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x00000ca9      0x147 ..\obj\misc.o
+ .debug_abbrev  0x00000573      0x185 ..\obj\main.o
+ .debug_abbrev  0x000006f8      0x262 ..\obj\printf.o
+ .debug_abbrev  0x0000095a      0x1bc ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000b16      0x164 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x00000c7a      0x147 ..\obj\misc.o
 
 .debug_aranges  0x00000000      0x730
  .debug_aranges
@@ -725,16 +725,16 @@ OUTPUT(Example_TIM_Time.elf elf32-littlearm)
  .debug_ranges  0x00000580       0xf0 ..\obj\stm32f10x_usart.o
  .debug_ranges  0x00000670       0x30 ..\obj\misc.o
 
-.debug_line     0x00000000     0x2447
+.debug_line     0x00000000     0x2439
  .debug_line    0x00000000      0xb60 ..\obj\stm32f10x_tim.o
  .debug_line    0x00000b60      0x224 ..\obj\system_stm32f10x.o
  .debug_line    0x00000d84       0xa8 ..\obj\startup_stm32f10x_md.o
  .debug_line    0x00000e2c      0x3e0 ..\obj\stm32f10x_gpio.o
- .debug_line    0x0000120c      0x2e4 ..\obj\main.o
- .debug_line    0x000014f0      0x367 ..\obj\printf.o
- .debug_line    0x00001857      0x4db ..\obj\stm32f10x_rcc.o
- .debug_line    0x00001d32      0x4c2 ..\obj\stm32f10x_usart.o
- .debug_line    0x000021f4      0x253 ..\obj\misc.o
+ .debug_line    0x0000120c      0x2d6 ..\obj\main.o
+ .debug_line    0x000014e2      0x367 ..\obj\printf.o
+ .debug_line    0x00001849      0x4db ..\obj\stm32f10x_rcc.o
+ .debug_line    0x00001d24      0x4c2 ..\obj\stm32f10x_usart.o
+ .debug_line    0x000021e6      0x253 ..\obj\misc.o
 
 .debug_str      0x00000000     0x2598
  .debug_str     0x00000000      0xd28 ..\obj\stm32f10x_tim.o
@@ -745,9 +745,9 @@ OUTPUT(Example_TIM_Time.elf elf32-littlearm)
                                 0x14d (size before relaxing)
  .debug_str     0x00000f56      0x384 ..\obj\stm32f10x_gpio.o
                                 0x527 (size before relaxing)
- .debug_str     0x000012da      0x505 ..\obj\main.o
-                                0x94b (size before relaxing)
- .debug_str     0x000017df      0x4d7 ..\obj\printf.o
+ .debug_str     0x000012da      0x511 ..\obj\main.o
+                                0x94f (size before relaxing)
+ .debug_str     0x000017eb      0x4cb ..\obj\printf.o
                                 0x67c (size before relaxing)
  .debug_str     0x00001cb6      0x3d4 ..\obj\stm32f10x_rcc.o
                                 0x628 (size before relaxing)
