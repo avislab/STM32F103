@@ -3,9 +3,8 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "stm32f10x_adc.h"
+#include "stdio.h"
 #include "misc.h"
-
-volatile char buffer[50] = {'\0'};
 
 void usart_init(void)
 {
@@ -72,7 +71,7 @@ void usart_init(void)
 
 }
 
-void USARTSend(const unsigned char *pucBuffer)
+void USARTSend(char *pucBuffer)
 {
     while (*pucBuffer)
     {
@@ -145,7 +144,8 @@ void SetSysClockTo72(void)
 
 int main(void)
 {
-	const unsigned char mytext[] = " Hello World!\r\n";
+	char buffer[50] = {'\0'};
+
 	int adc_value;
 	int temperature;
 

@@ -5,9 +5,8 @@
 #include "stm32f10x_adc.h"
 #include "stm32f10x_dma.h"
 #include "stm32f10x_tim.h"
+#include "stdio.h"
 #include "misc.h"
-
-volatile char buffer[80] = {'\0'};
 
 volatile short FLAG_ECHO = 0;
 
@@ -83,7 +82,7 @@ void usart_init(void)
 	    //USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
 }
 
-void USARTSend(const unsigned char *pucBuffer)
+void USARTSend(char *pucBuffer)
 {
     while (*pucBuffer)
     {
@@ -214,13 +213,12 @@ void ADC_DMA_init(void)
 
 int main(void)
 {
-	SetSysClockTo72();
+	char buffer[80] = {'\0'};
 
-	const unsigned char mytext[] = " Hello World!\r\n";
+	SetSysClockTo72();
 
     //USART
     usart_init();
-    USARTSend(mytext);
 
     //ADC
     ADC_DMA_init();

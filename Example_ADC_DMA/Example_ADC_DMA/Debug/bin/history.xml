@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_ADC_DMA.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_DMA -TC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_DMA/arm-gcc-link.ld -g">
-      <target file="Example_ADC_DMA.elf" lastModified="15697401a96">
-         <source file="..\obj\stm32f10x_tim.o" lastModified="1567dc219f3"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="1567dc21b6a"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1567dc21c83"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="1567dc21cf1"/>
-         <source file="..\obj\main.o" lastModified="15697401769"/>
-         <source file="..\obj\printf.o" lastModified="1567dc21e48"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="1567dc21eb6"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="1567dc21f33"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="1567dc21fa0"/>
-         <source file="..\obj\stm32f10x_dma.o" lastModified="1567dc21ffe"/>
-         <source file="..\obj\misc.o" lastModified="1567dc2204c"/>
+      <target file="Example_ADC_DMA.elf" lastModified="1572d708397">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1572d707994"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1572d7079e2"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1572d707b3a"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1572d707ba8"/>
+         <source file="..\obj\main.o" lastModified="1572d707c15"/>
+         <source file="..\obj\printf.o" lastModified="1572d707c73"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1572d707cf0"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1572d707d6d"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1572d707dda"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="1572d707e38"/>
+         <source file="..\obj\misc.o" lastModified="1572d707e86"/>
       </target>
    </processor>
 </history>

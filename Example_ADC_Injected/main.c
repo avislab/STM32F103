@@ -3,9 +3,8 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "stm32f10x_adc.h"
+#include "stdio.h"
 #include "misc.h"
-
-volatile char buffer[80] = {'\0'};
 
 void usart_init(void)
 {
@@ -60,7 +59,7 @@ void usart_init(void)
 	    //USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
 }
 
-void USARTSend(const unsigned char *pucBuffer)
+void USARTSend(char *pucBuffer)
 {
     while (*pucBuffer)
     {
@@ -173,6 +172,7 @@ void ADC_Injected_init(void)
 
 int main(void)
 {
+	char buffer[80] = {'\0'};
 	uint16_t ADC_value0, ADC_value1;
 	SetSysClockTo72();
 

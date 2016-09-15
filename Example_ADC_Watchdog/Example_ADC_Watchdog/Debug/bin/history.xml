@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_ADC_Watchdog.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_Watchdog -TC:\CooCox\CoIDE\configuration\ProgramData\Example_ADC_Watchdog/arm-gcc-link.ld -g">
-      <target file="Example_ADC_Watchdog.elf" lastModified="1569742bd54">
-         <source file="..\obj\system_stm32f10x.o" lastModified="1569742b71a"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1569742b749"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="1569742b824"/>
-         <source file="..\obj\main.o" lastModified="1569742b95c"/>
-         <source file="..\obj\printf.o" lastModified="1569742b9ca"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="1569742ba47"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="1569742bab4"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="1569742bb31"/>
-         <source file="..\obj\misc.o" lastModified="1569742bb7f"/>
+      <target file="Example_ADC_Watchdog.elf" lastModified="1572d72e45b">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1572d72dead"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1572d72dedc"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1572d72df98"/>
+         <source file="..\obj\main.o" lastModified="1572d72e005"/>
+         <source file="..\obj\printf.o" lastModified="1572d72e073"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1572d72e0e0"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="1572d72e16d"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1572d72e1f9"/>
+         <source file="..\obj\misc.o" lastModified="1572d72e267"/>
       </target>
    </processor>
 </history>

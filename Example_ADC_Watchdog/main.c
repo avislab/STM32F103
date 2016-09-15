@@ -3,9 +3,8 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "stm32f10x_adc.h"
+#include "stdio.h"
 #include "misc.h"
-
-volatile char buffer[50] = {'\0'};
 
 volatile char ADC_IT_AWD_FLAG = 0;
 
@@ -157,6 +156,8 @@ void ADC1_2_IRQHandler(void)
 
 int main(void)
 {
+	char buffer[50] = {'\0'};
+
 	int adc_value;
 
 	SetSysClockTo72();
