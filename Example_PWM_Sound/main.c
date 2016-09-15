@@ -87,12 +87,6 @@ const SoundTypeDef Music[MUSICSIZE] ={
 int MusicStep = 0;
 char PlayMusic = 0;
 
-void StartMusic(void) {
-	MusicStep = 0;
-	PlayMusic = 1;
-	sound(Music[MusicStep].freq, Music[MusicStep].time);
-}
-
 void SetSysClockTo72(void)
 {
 	ErrorStatus HSEStartUpStatus;
@@ -193,6 +187,28 @@ void sound_init(void) {
     NVIC_EnableIRQ(TIM4_IRQn);
 }
 
+void sound (int freq, int time_ms) {
+	if (freq > 0) {
+		TIM4->ARR = SYSCLK / timer.TIM_Prescaler / freq;
+		TIM4->CCR1 = TIM4->ARR / 2;
+	}
+	else {
+		TIM4->ARR = 1000;
+		TIM4->CCR1 = 0;
+	}
+	TIM_SetCounter(TIM4, 0);
+
+	sound_time = ((SYSCLK / timer.TIM_Prescaler / TIM4->ARR) * time_ms ) / 1000;
+	sound_counter = 0;
+	TIM_Cmd(TIM4, ENABLE);
+}
+
+void StartMusic(void) {
+	MusicStep = 0;
+	PlayMusic = 1;
+	sound(Music[MusicStep].freq, Music[MusicStep].time);
+}
+
 void TIM4_IRQHandler(void){
 
 	if (TIM_GetITStatus(TIM4, TIM_IT_CC4) != RESET)
@@ -231,21 +247,6 @@ void TIM4_IRQHandler(void){
 	  }
 }
 
-void sound (int freq, int time_ms) {
-	if (freq > 0) {
-		TIM4->ARR = SYSCLK / timer.TIM_Prescaler / freq;
-		TIM4->CCR1 = TIM4->ARR / 2;
-	}
-	else {
-		TIM4->ARR = 1000;
-		TIM4->CCR1 = 0;
-	}
-	TIM_SetCounter(TIM4, 0);
-
-	sound_time = ((SYSCLK / timer.TIM_Prescaler / TIM4->ARR) * time_ms ) / 1000;
-	sound_counter = 0;
-	TIM_Cmd(TIM4, ENABLE);
-}
 
 int main(void)
 {

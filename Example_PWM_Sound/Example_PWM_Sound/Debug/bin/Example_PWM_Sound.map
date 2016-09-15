@@ -380,20 +380,20 @@ Linker script and memory map
                 0x08000858                GPIO_StructInit
  .text.NVIC_EnableIRQ
                 0x08000880       0x30 ..\obj\main.o
- .text.StartMusic
-                0x080008b0       0x40 ..\obj\main.o
-                0x080008b0                StartMusic
  .text.SetSysClockTo72
-                0x080008f0       0x70 ..\obj\main.o
-                0x080008f0                SetSysClockTo72
+                0x080008b0       0x70 ..\obj\main.o
+                0x080008b0                SetSysClockTo72
  .text.sound_init
-                0x08000960       0xac ..\obj\main.o
-                0x08000960                sound_init
+                0x08000920       0xac ..\obj\main.o
+                0x08000920                sound_init
+ .text.sound    0x080009cc       0xa8 ..\obj\main.o
+                0x080009cc                sound
+ .text.StartMusic
+                0x08000a74       0x40 ..\obj\main.o
+                0x08000a74                StartMusic
  .text.TIM4_IRQHandler
-                0x08000a0c       0xcc ..\obj\main.o
-                0x08000a0c                TIM4_IRQHandler
- .text.sound    0x08000ad8       0xa8 ..\obj\main.o
-                0x08000ad8                sound
+                0x08000ab4       0xcc ..\obj\main.o
+                0x08000ab4                TIM4_IRQHandler
  .text.main     0x08000b80       0x14 ..\obj\main.o
                 0x08000b80                main
  .text.RCC_DeInit
@@ -556,21 +556,21 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_PWM_Sound.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x3b28
+.debug_info     0x00000000     0x3adf
  .debug_info    0x00000000     0x1c60 ..\obj\stm32f10x_tim.o
  .debug_info    0x00001c60      0x49c ..\obj\system_stm32f10x.o
  .debug_info    0x000020fc       0xee ..\obj\startup_stm32f10x_md.o
  .debug_info    0x000021ea      0x6f6 ..\obj\stm32f10x_gpio.o
- .debug_info    0x000028e0      0x9a5 ..\obj\main.o
- .debug_info    0x00003285      0x8a3 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x000028e0      0x95c ..\obj\main.o
+ .debug_info    0x0000323c      0x8a3 ..\obj\stm32f10x_rcc.o
 
-.debug_abbrev   0x00000000      0x933
+.debug_abbrev   0x00000000      0x909
  .debug_abbrev  0x00000000      0x1b2 ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x000001b2      0x14e ..\obj\system_stm32f10x.o
  .debug_abbrev  0x00000300       0xa7 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000003a7      0x1cc ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x00000573      0x204 ..\obj\main.o
- .debug_abbrev  0x00000777      0x1bc ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000573      0x1da ..\obj\main.o
+ .debug_abbrev  0x0000074d      0x1bc ..\obj\stm32f10x_rcc.o
 
 .debug_aranges  0x00000000      0x560
  .debug_aranges
