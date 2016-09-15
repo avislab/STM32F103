@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_USART_DMA\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\Example_USART_DMA -I..\..\..\workspace\Example_USART_DMA\stm_lib -I..\..\..\workspace\Example_USART_DMA\cmsis_boot -I..\..\..\workspace\Example_USART_DMA\cmsis">
-      <target file="stm32f10x_rcc.o" lastModified="156b1300c6f">
+      <target file="stm32f10x_rcc.o" lastModified="1572e13e40d">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156546a2d8b"/>
       </target>
-      <target file="startup_stm32f10x_md.o" lastModified="156b1300829">
+      <target file="startup_stm32f10x_md.o" lastModified="1572e13e11f">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156546a2d3d"/>
       </target>
-      <target file="misc.o" lastModified="156b1300e43">
+      <target file="misc.o" lastModified="1572e13e5a4">
          <source file="..\..\..\stm_lib\src\misc.c" lastModified="156546b0117"/>
       </target>
-      <target file="stm32f10x_dma.o" lastModified="156b1300de6">
+      <target file="stm32f10x_dma.o" lastModified="1572e13e555">
          <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="156546a2d1d"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="156b13007ea">
+      <target file="system_stm32f10x.o" lastModified="1572e13e0f0">
          <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156546a2d5c"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="156b1300d88">
+      <target file="stm32f10x_usart.o" lastModified="1572e13e4b9">
          <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="156546a4b92"/>
       </target>
-      <target file="main.o" lastModified="156b1300bb3">
-         <source file="..\..\..\main.c" lastModified="156b12fedea"/>
+      <target file="main.o" lastModified="1572e13e390">
+         <source file="..\..\..\main.c" lastModified="1572e13c4cd"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="156b1300952">
+      <target file="stm32f10x_gpio.o" lastModified="1572e13e19c">
          <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156546a3720"/>
       </target>
    </processor>

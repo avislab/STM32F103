@@ -438,38 +438,38 @@ Linker script and memory map
 .igot.plt       0x20000018        0x0 load address 0x08000bcc
  .igot.plt      0x20000018        0x0 ..\obj\system_stm32f10x.o
 
-.bss            0x20000018       0xa8 load address 0x08000bcc
+.bss            0x20000018       0x54 load address 0x08000bcc
                 0x20000018                . = ALIGN (0x4)
                 0x20000018                __bss_start__ = .
                 0x20000018                _sbss = __bss_start__
  *(.bss*)
- .bss           0x20000018       0xa4 ..\obj\main.o
+ .bss           0x20000018       0x51 ..\obj\main.o
                 0x20000018                RX_BUF
                 0x20000068                RX_FLAG_END_LINE
-                0x2000006c                buffer
  *(COMMON)
- COMMON         0x200000bc        0x2 ..\obj\main.o
-                0x200000bc                RXc
-                0x200000bd                RXi
-                0x200000c0                . = ALIGN (0x4)
- *fill*         0x200000be        0x2 
-                0x200000c0                __bss_end__ = .
-                0x200000c0                _ebss = __bss_end__
+ COMMON         0x20000069        0x2 ..\obj\main.o
+                0x20000069                RXc
+                0x2000006a                RXi
+                0x2000006c                . = ALIGN (0x4)
+ *fill*         0x2000006b        0x1 
+                0x2000006c                __bss_end__ = .
+                0x2000006c                _ebss = __bss_end__
 
-.heap           0x200000c0        0x0
-                0x200000c0                __end__ = .
-                0x200000c0                _end = __end__
-                0x200000c0                end = __end__
+.heap           0x2000006c        0x0
+                0x2000006c                __end__ = .
+                0x2000006c                _end = __end__
+                0x2000006c                end = __end__
  *(.heap*)
-                0x200000c0                __HeapLimit = .
+                0x2000006c                __HeapLimit = .
 
-.co_stack       0x200000c0      0x400 load address 0x08000c74
-                0x200000c0                . = ALIGN (0x8)
+.co_stack       0x2000006c      0x404 load address 0x08000c20
+                0x20000070                . = ALIGN (0x8)
+ *fill*         0x2000006c        0x4 
  *(.co_stack .co_stack.*)
- .co_stack      0x200000c0      0x400 ..\obj\startup_stm32f10x_md.o
-                0x200000c0                pulStack
+ .co_stack      0x20000070      0x400 ..\obj\startup_stm32f10x_md.o
+                0x20000070                pulStack
                 0x20005000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
-                0x20004c00                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20004bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
                 [!provide]                PROVIDE (__stack, __StackTop)
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
 LOAD ..\obj\system_stm32f10x.o
@@ -491,23 +491,23 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_USART1.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x32b6
+.debug_info     0x00000000     0x329b
  .debug_info    0x00000000      0x4c8 ..\obj\system_stm32f10x.o
  .debug_info    0x000004c8      0x114 ..\obj\startup_stm32f10x_md.o
  .debug_info    0x000005dc      0x88f ..\obj\stm32f10x_gpio.o
- .debug_info    0x00000e6b      0xaf4 ..\obj\main.o
- .debug_info    0x0000195f      0x8d7 ..\obj\stm32f10x_rcc.o
- .debug_info    0x00002236      0xb24 ..\obj\stm32f10x_usart.o
- .debug_info    0x00002d5a      0x55c ..\obj\misc.o
+ .debug_info    0x00000e6b      0xad9 ..\obj\main.o
+ .debug_info    0x00001944      0x8d7 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x0000221b      0xb24 ..\obj\stm32f10x_usart.o
+ .debug_info    0x00002d3f      0x55c ..\obj\misc.o
 
-.debug_abbrev   0x00000000      0xb39
+.debug_abbrev   0x00000000      0xb32
  .debug_abbrev  0x00000000      0x170 ..\obj\system_stm32f10x.o
  .debug_abbrev  0x00000170       0xd3 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x00000243      0x1ed ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x00000430      0x20b ..\obj\main.o
- .debug_abbrev  0x0000063b      0x1e2 ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x0000081d      0x1c6 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x000009e3      0x156 ..\obj\misc.o
+ .debug_abbrev  0x00000430      0x204 ..\obj\main.o
+ .debug_abbrev  0x00000634      0x1e2 ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000816      0x1c6 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x000009dc      0x156 ..\obj\misc.o
 
 .debug_loc      0x00000000     0x16e8
  .debug_loc     0x00000000       0xe8 ..\obj\system_stm32f10x.o
@@ -552,20 +552,20 @@ OUTPUT(Example_USART1.elf elf32-littlearm)
  .debug_line    0x00000dca      0x46d ..\obj\stm32f10x_usart.o
  .debug_line    0x00001237      0x23e ..\obj\misc.o
 
-.debug_str      0x00000000     0x14e1
+.debug_str      0x00000000     0x14da
  .debug_str     0x00000000      0x28c ..\obj\system_stm32f10x.o
                                 0x2fb (size before relaxing)
  .debug_str     0x0000028c       0xb9 ..\obj\startup_stm32f10x_md.o
                                 0x15b (size before relaxing)
  .debug_str     0x00000345      0x3d0 ..\obj\stm32f10x_gpio.o
                                 0x53c (size before relaxing)
- .debug_str     0x00000715      0x62f ..\obj\main.o
-                                0x922 (size before relaxing)
- .debug_str     0x00000d44      0x2f6 ..\obj\stm32f10x_rcc.o
+ .debug_str     0x00000715      0x628 ..\obj\main.o
+                                0x91b (size before relaxing)
+ .debug_str     0x00000d3d      0x2f6 ..\obj\stm32f10x_rcc.o
                                 0x626 (size before relaxing)
- .debug_str     0x0000103a      0x354 ..\obj\stm32f10x_usart.o
+ .debug_str     0x00001033      0x354 ..\obj\stm32f10x_usart.o
                                 0x6dc (size before relaxing)
- .debug_str     0x0000138e      0x153 ..\obj\misc.o
+ .debug_str     0x00001387      0x153 ..\obj\misc.o
                                 0x3ca (size before relaxing)
 
 .comment        0x00000000       0x6e

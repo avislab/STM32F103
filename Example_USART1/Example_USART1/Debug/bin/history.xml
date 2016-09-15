@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_USART1.map -O1 --gc-sections -lm -lgcc -lc -lrdimon -LC:\CooCox\CoIDE\configuration\ProgramData\Example_USART1 -TC:\CooCox\CoIDE\configuration\ProgramData\Example_USART1/arm-gcc-link.ld -g">
-      <target file="Example_USART1.elf" lastModified="15697202213">
-         <source file="..\obj\system_stm32f10x.o" lastModified="156276f4dc6"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="156276f4e05"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="156276f4f0e"/>
-         <source file="..\obj\main.o" lastModified="15697201cc4"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="156276f52b8"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="156276f5354"/>
-         <source file="..\obj\syscalls.o" lastModified="156276f53a2"/>
-         <source file="..\obj\misc.o" lastModified="156276f53f0"/>
+      <target file="Example_USART1.elf" lastModified="1572da4fa12">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1572da4f3d8"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1572da4f417"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1572da4f4a3"/>
+         <source file="..\obj\main.o" lastModified="1572da4f60b"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1572da4f6e5"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="1572da4f782"/>
+         <source file="..\obj\syscalls.o" lastModified="1572da4f7d0"/>
+         <source file="..\obj\misc.o" lastModified="1572da4f82e"/>
       </target>
    </processor>
 </history>

@@ -3,14 +3,13 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "misc.h"
-#include <string.h>
+#include "string.h"
 
 #define RX_BUF_SIZE 80
 volatile char RX_FLAG_END_LINE = 0;
 volatile char RXi;
 volatile char RXc;
 volatile char RX_BUF[RX_BUF_SIZE] = {'\0'};
-volatile char buffer[80] = {'\0'};
 
 void clear_RXBuffer(void) {
 	for (RXi=0; RXi<RX_BUF_SIZE; RXi++)
@@ -102,7 +101,7 @@ void USART1_IRQHandler(void)
 	}
 }
 
-void USARTSend(const unsigned char *pucBuffer)
+void USARTSend(char *pucBuffer)
 {
     while (*pucBuffer)
     {

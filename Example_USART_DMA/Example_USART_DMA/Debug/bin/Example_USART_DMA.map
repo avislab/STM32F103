@@ -513,25 +513,25 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_USART_DMA.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x31cf
+.debug_info     0x00000000     0x31ce
  .debug_info    0x00000000      0x49c ..\obj\system_stm32f10x.o
  .debug_info    0x0000049c       0xee ..\obj\startup_stm32f10x_md.o
  .debug_info    0x0000058a      0x6f6 ..\obj\stm32f10x_gpio.o
- .debug_info    0x00000c80      0x8eb ..\obj\main.o
- .debug_info    0x0000156b      0x8a3 ..\obj\stm32f10x_rcc.o
- .debug_info    0x00001e0e      0x9f0 ..\obj\stm32f10x_usart.o
- .debug_info    0x000027fe      0x47b ..\obj\stm32f10x_dma.o
- .debug_info    0x00002c79      0x556 ..\obj\misc.o
+ .debug_info    0x00000c80      0x8ea ..\obj\main.o
+ .debug_info    0x0000156a      0x8a3 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00001e0d      0x9f0 ..\obj\stm32f10x_usart.o
+ .debug_info    0x000027fd      0x47b ..\obj\stm32f10x_dma.o
+ .debug_info    0x00002c78      0x556 ..\obj\misc.o
 
-.debug_abbrev   0x00000000      0xb9a
+.debug_abbrev   0x00000000      0xb95
  .debug_abbrev  0x00000000      0x14e ..\obj\system_stm32f10x.o
  .debug_abbrev  0x0000014e       0xa7 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000001f5      0x1cc ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x000003c1      0x21b ..\obj\main.o
- .debug_abbrev  0x000005dc      0x1bc ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000798      0x164 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x000008fc      0x157 ..\obj\stm32f10x_dma.o
- .debug_abbrev  0x00000a53      0x147 ..\obj\misc.o
+ .debug_abbrev  0x000003c1      0x216 ..\obj\main.o
+ .debug_abbrev  0x000005d7      0x1bc ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000793      0x164 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x000008f7      0x157 ..\obj\stm32f10x_dma.o
+ .debug_abbrev  0x00000a4e      0x147 ..\obj\misc.o
 
 .debug_aranges  0x00000000      0x428
  .debug_aranges
@@ -571,22 +571,22 @@ OUTPUT(Example_USART_DMA.elf elf32-littlearm)
  .debug_line    0x00001386      0x34c ..\obj\stm32f10x_dma.o
  .debug_line    0x000016d2      0x257 ..\obj\misc.o
 
-.debug_str      0x00000000     0x1743
+.debug_str      0x00000000     0x178b
  .debug_str     0x00000000      0x28f ..\obj\system_stm32f10x.o
                                 0x2fe (size before relaxing)
  .debug_str     0x0000028f       0xb7 ..\obj\startup_stm32f10x_md.o
                                 0x14e (size before relaxing)
  .debug_str     0x00000346      0x3bc ..\obj\stm32f10x_gpio.o
                                 0x528 (size before relaxing)
- .debug_str     0x00000702      0x656 ..\obj\main.o
-                                0x91e (size before relaxing)
- .debug_str     0x00000d58      0x3d5 ..\obj\stm32f10x_rcc.o
+ .debug_str     0x00000702      0x69e ..\obj\main.o
+                                0x966 (size before relaxing)
+ .debug_str     0x00000da0      0x3d5 ..\obj\stm32f10x_rcc.o
                                 0x629 (size before relaxing)
- .debug_str     0x0000112d      0x3b0 ..\obj\stm32f10x_usart.o
+ .debug_str     0x00001175      0x3b0 ..\obj\stm32f10x_usart.o
                                 0x69f (size before relaxing)
- .debug_str     0x000014dd      0x137 ..\obj\stm32f10x_dma.o
+ .debug_str     0x00001525      0x137 ..\obj\stm32f10x_dma.o
                                 0x3c6 (size before relaxing)
- .debug_str     0x00001614      0x12f ..\obj\misc.o
+ .debug_str     0x0000165c      0x12f ..\obj\misc.o
                                 0x3cd (size before relaxing)
 
 .comment        0x00000000       0x6e

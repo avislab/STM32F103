@@ -4,6 +4,7 @@
 #include "stm32f10x_usart.h"
 #include "stm32f10x_dma.h"
 #include "misc.h"
+#include "stdio.h"
 #include <string.h>
 
 #define RX_BUF_SIZE 80
@@ -126,7 +127,7 @@ void USART1_IRQHandler(void)
 	}
 }
 
-void USARTSendDMA(const unsigned char *pucBuffer)
+void USARTSendDMA(char *pucBuffer)
 {
 	strcpy(buffer, pucBuffer);
 
