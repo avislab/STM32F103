@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_Sonar.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_Sonar -TC:\CooCox\CoIDE\configuration\ProgramData\Example_Sonar/arm-gcc-link.ld -g">
+      <target file="Example_Sonar.elf" lastModified="157290e471c">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="157290e39dd"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="157290e3a2b"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="157290e3c00"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="157290e3c5e"/>
+         <source file="..\obj\main.o" lastModified="157290e3d29"/>
+         <source file="..\obj\printf.o" lastModified="157290e3f0d"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="157290e3f8a"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="157290e3fd8"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="157290e4046"/>
+         <source file="..\obj\misc.o" lastModified="157290e40a4"/>
+      </target>
+   </processor>
+</history>

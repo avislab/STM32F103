@@ -706,29 +706,29 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_Sonar.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x5c3e
+.debug_info     0x00000000     0x5c7c
  .debug_info    0x00000000     0x1c60 ..\obj\stm32f10x_tim.o
  .debug_info    0x00001c60      0x49c ..\obj\system_stm32f10x.o
  .debug_info    0x000020fc       0xee ..\obj\startup_stm32f10x_md.o
  .debug_info    0x000021ea      0x6f6 ..\obj\stm32f10x_gpio.o
- .debug_info    0x000028e0      0x9e7 ..\obj\main.o
- .debug_info    0x000032c7      0xe3d ..\obj\printf.o
- .debug_info    0x00004104      0x8a3 ..\obj\stm32f10x_rcc.o
- .debug_info    0x000049a7      0x351 ..\obj\stm32f10x_exti.o
- .debug_info    0x00004cf8      0x9f0 ..\obj\stm32f10x_usart.o
- .debug_info    0x000056e8      0x556 ..\obj\misc.o
+ .debug_info    0x000028e0      0xa25 ..\obj\main.o
+ .debug_info    0x00003305      0xe3d ..\obj\printf.o
+ .debug_info    0x00004142      0x8a3 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x000049e5      0x351 ..\obj\stm32f10x_exti.o
+ .debug_info    0x00004d36      0x9f0 ..\obj\stm32f10x_usart.o
+ .debug_info    0x00005726      0x556 ..\obj\misc.o
 
-.debug_abbrev   0x00000000      0xf57
+.debug_abbrev   0x00000000      0xf93
  .debug_abbrev  0x00000000      0x1b2 ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x000001b2      0x14e ..\obj\system_stm32f10x.o
  .debug_abbrev  0x00000300       0xa7 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000003a7      0x1cc ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x00000573      0x1c6 ..\obj\main.o
- .debug_abbrev  0x00000739      0x262 ..\obj\printf.o
- .debug_abbrev  0x0000099b      0x1bc ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000b57      0x155 ..\obj\stm32f10x_exti.o
- .debug_abbrev  0x00000cac      0x164 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x00000e10      0x147 ..\obj\misc.o
+ .debug_abbrev  0x00000573      0x202 ..\obj\main.o
+ .debug_abbrev  0x00000775      0x262 ..\obj\printf.o
+ .debug_abbrev  0x000009d7      0x1bc ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000b93      0x155 ..\obj\stm32f10x_exti.o
+ .debug_abbrev  0x00000ce8      0x164 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x00000e4c      0x147 ..\obj\misc.o
 
 .debug_aranges  0x00000000      0x7a8
  .debug_aranges
@@ -764,17 +764,17 @@ OUTPUT(Example_Sonar.elf elf32-littlearm)
  .debug_ranges  0x000005e8       0xf0 ..\obj\stm32f10x_usart.o
  .debug_ranges  0x000006d8       0x30 ..\obj\misc.o
 
-.debug_line     0x00000000     0x2715
+.debug_line     0x00000000     0x2723
  .debug_line    0x00000000      0xb54 ..\obj\stm32f10x_tim.o
  .debug_line    0x00000b54      0x21e ..\obj\system_stm32f10x.o
  .debug_line    0x00000d72       0xa5 ..\obj\startup_stm32f10x_md.o
  .debug_line    0x00000e17      0x3d4 ..\obj\stm32f10x_gpio.o
- .debug_line    0x000011eb      0x350 ..\obj\main.o
- .debug_line    0x0000153b      0x364 ..\obj\printf.o
- .debug_line    0x0000189f      0x4cf ..\obj\stm32f10x_rcc.o
- .debug_line    0x00001d6e      0x2aa ..\obj\stm32f10x_exti.o
- .debug_line    0x00002018      0x4b6 ..\obj\stm32f10x_usart.o
- .debug_line    0x000024ce      0x247 ..\obj\misc.o
+ .debug_line    0x000011eb      0x35e ..\obj\main.o
+ .debug_line    0x00001549      0x364 ..\obj\printf.o
+ .debug_line    0x000018ad      0x4cf ..\obj\stm32f10x_rcc.o
+ .debug_line    0x00001d7c      0x2aa ..\obj\stm32f10x_exti.o
+ .debug_line    0x00002026      0x4b6 ..\obj\stm32f10x_usart.o
+ .debug_line    0x000024dc      0x247 ..\obj\misc.o
 
 .debug_str      0x00000000     0x278a
  .debug_str     0x00000000      0xd25 ..\obj\stm32f10x_tim.o
@@ -785,9 +785,9 @@ OUTPUT(Example_Sonar.elf elf32-littlearm)
                                 0x14a (size before relaxing)
  .debug_str     0x00000f4d      0x381 ..\obj\stm32f10x_gpio.o
                                 0x524 (size before relaxing)
- .debug_str     0x000012ce      0x639 ..\obj\main.o
-                                0xa87 (size before relaxing)
- .debug_str     0x00001907      0x4c2 ..\obj\printf.o
+ .debug_str     0x000012ce      0x62d ..\obj\main.o
+                                0xa83 (size before relaxing)
+ .debug_str     0x000018fb      0x4ce ..\obj\printf.o
                                 0x673 (size before relaxing)
  .debug_str     0x00001dc9      0x3d1 ..\obj\stm32f10x_rcc.o
                                 0x625 (size before relaxing)
