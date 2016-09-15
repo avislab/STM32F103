@@ -3,9 +3,8 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_usart.h"
 #include "stm32f10x_adc.h"
+#include "stdio.h"
 #include "misc.h"
-
-volatile char buffer[50] = {'\0'};
 
 void usart_init(void)
 {
@@ -72,7 +71,7 @@ void usart_init(void)
 
 }
 
-void USARTSend(const unsigned char *pucBuffer, unsigned long ulCount)
+void USARTSend(char *pucBuffer, unsigned long ulCount)
 {
     //
     // Loop while there are more characters to send.
@@ -149,7 +148,7 @@ void SetSysClockTo72(void)
 
 int main(void)
 {
-	const unsigned char mytext[] = " Hello World!\r\n";
+	char buffer[50] = {'\0'};
 	int adc_value;
 
 	SetSysClockTo72();
@@ -157,7 +156,6 @@ int main(void)
 	//USART1
 	usart_init();
 	USART_SendData(USART1, '\r');
-	USARTSend(mytext, sizeof(mytext));
 
 	//ADC
 	ADC_InitTypeDef ADC_InitStructure;
