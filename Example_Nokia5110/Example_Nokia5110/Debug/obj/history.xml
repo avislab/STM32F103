@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_Nokia5110 -I..\..\..\workspace -I..\..\..\workspace\Example_Nokia5110\stm_lib\inc -I..\..\..\workspace\Example_Nokia5110\stm_lib -I..\..\..\workspace\Example_Nokia5110\cmsis -I..\..\.. -I..\..\..\workspace\Example_Nokia5110\cmsis_boot">
+      <target file="stm32f10x_rcc.o" lastModified="1572d7e7693">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156e99b8204"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1572d7e7460">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156e99b81b6"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1572d7e7395">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156e99b81c5"/>
+      </target>
+      <target file="misc.o" lastModified="1572d7e772f">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156e99ba02b"/>
+      </target>
+      <target file="main.o" lastModified="1572d9095cb">
+         <source file="..\..\..\main.c" lastModified="1572d90932b"/>
+      </target>
+      <target file="syscalls.o" lastModified="1572d7e76e1">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156e9e888e3"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1572d7e7579">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156e99b8119"/>
+      </target>
+      <target file="n3310.o" lastModified="1572d7e7422">
+         <source file="..\..\..\n3310.c" lastModified="1572d7e6ba6"/>
+      </target>
+   </processor>
+</history>

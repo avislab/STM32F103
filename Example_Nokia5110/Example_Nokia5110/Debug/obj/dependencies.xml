@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\Example_Nokia5110 /I..\..\..\workspace /I..\..\..\workspace\Example_Nokia5110\stm_lib\inc /I..\..\..\workspace\Example_Nokia5110\stm_lib /I..\..\..\workspace\Example_Nokia5110\cmsis /I..\..\.. /I..\..\..\workspace\Example_Nokia5110\cmsis_boot">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="156e99b85ad">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="156e99b81f4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="156e99ba02b">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\n3310.h" lastModified="1572d7e5f52">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156e99b8204">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156e99b8119">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="156e99b89a5">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="156e99b89b5">
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="156e99ba01b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="156e9e89883">
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="156e99b85bd">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156e99b81b6">
+      </source>
+      <source file="..\..\..\n3310.c" lastModified="1572d7e6f8e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\n3310.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="156e99b80fa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="156e99b81c5">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="156e99b81d5">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156e99b81c5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_Nokia5110.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_Nokia5110 -TC:\CooCox\CoIDE\configuration\ProgramData\Example_Nokia5110/arm-gcc-link.ld -g">
+      <target file="Example_Nokia5110.elf" lastModified="1572d9099a4">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1572d7e7395"/>
+         <source file="..\obj\n3310.o" lastModified="1572d7e7422"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1572d7e7460"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1572d7e7579"/>
+         <source file="..\obj\main.o" lastModified="1572d9095cb"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1572d7e7693"/>
+         <source file="..\obj\syscalls.o" lastModified="1572d7e76e1"/>
+         <source file="..\obj\misc.o" lastModified="1572d7e772f"/>
+      </target>
+   </processor>
+</history>
