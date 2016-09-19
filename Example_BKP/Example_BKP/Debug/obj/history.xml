@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_BKP\stm_lib\inc -I..\..\..\workspace\Example_BKP\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Example_BKP -I..\..\..\workspace\Example_BKP\cmsis -I..\..\..\workspace\Example_BKP\stm_lib">
+      <target file="stm32f10x_pwr.o" lastModified="1574142a521">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="156fe641af3"/>
+      </target>
+      <target file="syscalls.o" lastModified="1574142a81e">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156fe63edd7"/>
+      </target>
+      <target file="printf.o" lastModified="1574142a6a7">
+         <source file="..\..\..\stdio\printf.c" lastModified="156fe75eee6"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1574142a408">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156fe640eed"/>
+      </target>
+      <target file="main.o" lastModified="1574142a60b">
+         <source file="..\..\..\main.c" lastModified="15741428db1"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1574142a59e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156fe640f3b"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1574142a7d0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="156fe642fd3"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1574142a734">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156fe640f1c"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="1574142a8da">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="156ff4ba40e"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1574142a446">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156fe640edd"/>
+      </target>
+      <target file="misc.o" lastModified="1574142a87c">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156fe742a69"/>
+      </target>
+   </processor>
+</history>
