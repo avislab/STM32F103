@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_RTC.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_RTC -TC:\CooCox\CoIDE\configuration\ProgramData\Example_RTC/arm-gcc-link.ld -g">
+      <target file="Example_RTC.elf" lastModified="157416a69da">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="157416a5f7a"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="157416a5fd8"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="157416a61cc"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="157416a62d6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="157416a6353"/>
+         <source file="..\obj\main.o" lastModified="157416a63df"/>
+         <source file="..\obj\printf.o" lastModified="157416a647b"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="157416a6508"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="157416a6566"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="157416a6602"/>
+         <source file="..\obj\syscalls.o" lastModified="157416a6650"/>
+         <source file="..\obj\misc.o" lastModified="157416a669e"/>
+      </target>
+   </processor>
+</history>
