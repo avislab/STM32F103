@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace -I..\..\..\workspace\Example_WG12864A\stm_lib\inc -I..\..\..\workspace\Example_WG12864A\stm_lib -I..\..\..\workspace\Example_WG12864A -I..\..\.. -I..\..\..\workspace\Example_WG12864A\cmsis_boot -I..\..\..\workspace\Example_WG12864A\cmsis">
+      <target file="syscalls.o" lastModified="1574c9e34f5">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15742893970"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1574c9e31c8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15742c470bd"/>
+      </target>
+      <target file="WH12864A.o" lastModified="1574c9e363d">
+         <source file="..\..\..\WH12864A.c" lastModified="1574c68b382"/>
+      </target>
+      <target file="tim2_delay.o" lastModified="1574c9e340a">
+         <source file="..\..\..\tim2_delay.c" lastModified="1574c9daf69"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1574c9e3226">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15742894845"/>
+      </target>
+      <target file="main.o" lastModified="1574c9e33ad">
+         <source file="..\..\..\main.c" lastModified="1574c9e2a17"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1574c9e334f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1574289569d"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1574c9e3497">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15742894816"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1574c9e32d2">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15742894835"/>
+      </target>
+      <target file="misc.o" lastModified="1574c9e3543">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15742c4d7f3"/>
+      </target>
+   </processor>
+</history>
