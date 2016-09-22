@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_WG12864A.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_WG12864A -TC:\CooCox\CoIDE\configuration\ProgramData\Example_WG12864A/arm-gcc-link.ld -g">
-      <target file="Example_WG12864A.elf" lastModified="1574c9e3812">
-         <source file="..\obj\stm32f10x_tim.o" lastModified="1574c9e31c8"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="1574c9e3226"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1574c9e32d2"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="1574c9e334f"/>
-         <source file="..\obj\main.o" lastModified="1574c9e33ad"/>
-         <source file="..\obj\tim2_delay.o" lastModified="1574c9e340a"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="1574c9e3497"/>
-         <source file="..\obj\syscalls.o" lastModified="1574c9e34f5"/>
-         <source file="..\obj\misc.o" lastModified="1574c9e3543"/>
-         <source file="..\obj\WH12864A.o" lastModified="1574c9e363d"/>
+      <target file="Example_WG12864A.elf" lastModified="15751e2469a">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15751e24022"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15751e24070"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15751e240dd"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15751e2416a"/>
+         <source file="..\obj\main.o" lastModified="15751e241c8"/>
+         <source file="..\obj\tim2_delay.o" lastModified="15751e24225"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15751e242f0"/>
+         <source file="..\obj\syscalls.o" lastModified="15751e2436d"/>
+         <source file="..\obj\misc.o" lastModified="15751e243cb"/>
+         <source file="..\obj\WH12864A.o" lastModified="15751e244b6"/>
       </target>
    </processor>
 </history>

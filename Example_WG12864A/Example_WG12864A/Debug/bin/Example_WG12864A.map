@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
-                              ..\obj\main.o (memcpy)
+                              ..\obj\WH12864A.o (memcpy)
 
 Allocating common symbols
 Common symbol       size              file
@@ -324,7 +324,7 @@ Linker script and memory map
 
                 0x20005000                _eram = 0x20005000
 
-.text           0x08000000     0x1e44
+.text           0x08000000     0x1e30
  *(.isr_vector)
  .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
                 0x08000000                g_pfnVectors
@@ -421,109 +421,109 @@ Linker script and memory map
  .text.SetSysClockToHSE
                 0x08000418       0x3c ..\obj\main.o
                 0x08000418                SetSysClockToHSE
- .text.main     0x08000454      0x104 ..\obj\main.o
+ .text.main     0x08000454       0xf0 ..\obj\main.o
                 0x08000454                main
  .text.TIM2_init
-                0x08000558       0x54 ..\obj\tim2_delay.o
-                0x08000558                TIM2_init
+                0x08000544       0x54 ..\obj\tim2_delay.o
+                0x08000544                TIM2_init
  .text.TIM2_IRQHandler
-                0x080005ac       0x3c ..\obj\tim2_delay.o
-                0x080005ac                TIM2_IRQHandler
+                0x08000598       0x3c ..\obj\tim2_delay.o
+                0x08000598                TIM2_IRQHandler
  .text.delay_us
-                0x080005e8       0x58 ..\obj\tim2_delay.o
-                0x080005e8                delay_us
+                0x080005d4       0x58 ..\obj\tim2_delay.o
+                0x080005d4                delay_us
  .text.delay_ms
-                0x08000640       0x50 ..\obj\tim2_delay.o
-                0x08000640                delay_ms
+                0x0800062c       0x50 ..\obj\tim2_delay.o
+                0x0800062c                delay_ms
  .text.RCC_DeInit
-                0x08000690       0x40 ..\obj\stm32f10x_rcc.o
-                0x08000690                RCC_DeInit
+                0x0800067c       0x40 ..\obj\stm32f10x_rcc.o
+                0x0800067c                RCC_DeInit
  .text.RCC_HSEConfig
-                0x080006d0       0x3c ..\obj\stm32f10x_rcc.o
-                0x080006d0                RCC_HSEConfig
+                0x080006bc       0x3c ..\obj\stm32f10x_rcc.o
+                0x080006bc                RCC_HSEConfig
  .text.RCC_SYSCLKConfig
-                0x0800070c       0x14 ..\obj\stm32f10x_rcc.o
-                0x0800070c                RCC_SYSCLKConfig
+                0x080006f8       0x14 ..\obj\stm32f10x_rcc.o
+                0x080006f8                RCC_SYSCLKConfig
  .text.RCC_GetSYSCLKSource
-                0x08000720       0x10 ..\obj\stm32f10x_rcc.o
-                0x08000720                RCC_GetSYSCLKSource
+                0x0800070c       0x10 ..\obj\stm32f10x_rcc.o
+                0x0800070c                RCC_GetSYSCLKSource
  .text.RCC_HCLKConfig
-                0x08000730       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000730                RCC_HCLKConfig
+                0x0800071c       0x14 ..\obj\stm32f10x_rcc.o
+                0x0800071c                RCC_HCLKConfig
  .text.RCC_PCLK1Config
-                0x08000744       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000744                RCC_PCLK1Config
+                0x08000730       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000730                RCC_PCLK1Config
  .text.RCC_PCLK2Config
-                0x08000758       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000758                RCC_PCLK2Config
+                0x08000744       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000744                RCC_PCLK2Config
  .text.RCC_APB2PeriphClockCmd
-                0x0800076c       0x1c ..\obj\stm32f10x_rcc.o
-                0x0800076c                RCC_APB2PeriphClockCmd
+                0x08000758       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000758                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x08000788       0x1c ..\obj\stm32f10x_rcc.o
-                0x08000788                RCC_APB1PeriphClockCmd
+                0x08000774       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000774                RCC_APB1PeriphClockCmd
  .text.RCC_GetFlagStatus
-                0x080007a4       0x28 ..\obj\stm32f10x_rcc.o
-                0x080007a4                RCC_GetFlagStatus
+                0x08000790       0x28 ..\obj\stm32f10x_rcc.o
+                0x08000790                RCC_GetFlagStatus
  .text.RCC_WaitForHSEStartUp
-                0x080007cc       0x34 ..\obj\stm32f10x_rcc.o
-                0x080007cc                RCC_WaitForHSEStartUp
+                0x080007b8       0x34 ..\obj\stm32f10x_rcc.o
+                0x080007b8                RCC_WaitForHSEStartUp
  .text.NVIC_Init
-                0x08000800       0x64 ..\obj\misc.o
-                0x08000800                NVIC_Init
+                0x080007ec       0x64 ..\obj\misc.o
+                0x080007ec                NVIC_Init
  .text.LCD_WriteCom
-                0x08000864       0x58 ..\obj\WH12864A.o
-                0x08000864                LCD_WriteCom
+                0x08000850       0x58 ..\obj\WH12864A.o
+                0x08000850                LCD_WriteCom
  .text.LCD_WriteData
-                0x080008bc       0x58 ..\obj\WH12864A.o
-                0x080008bc                LCD_WriteData
+                0x080008a8       0x58 ..\obj\WH12864A.o
+                0x080008a8                LCD_WriteData
  .text.LCD_WriteXY
-                0x08000914       0x20 ..\obj\WH12864A.o
-                0x08000914                LCD_WriteXY
+                0x08000900       0x20 ..\obj\WH12864A.o
+                0x08000900                LCD_WriteXY
  .text.LCD_Cache_Mark
-                0x08000934       0x44 ..\obj\WH12864A.o
-                0x08000934                LCD_Cache_Mark
+                0x08000920       0x44 ..\obj\WH12864A.o
+                0x08000920                LCD_Cache_Mark
  .text.LCD_SetXY
-                0x08000978       0x2c ..\obj\WH12864A.o
-                0x08000978                LCD_SetXY
+                0x08000964       0x2c ..\obj\WH12864A.o
+                0x08000964                LCD_SetXY
  .text.LCD_X_INC
-                0x080009a4       0x44 ..\obj\WH12864A.o
-                0x080009a4                LCD_X_INC
- .text.LcdInit  0x080009e8       0x70 ..\obj\WH12864A.o
-                0x080009e8                LcdInit
+                0x08000990       0x44 ..\obj\WH12864A.o
+                0x08000990                LCD_X_INC
+ .text.LcdInit  0x080009d4       0x70 ..\obj\WH12864A.o
+                0x080009d4                LcdInit
  .text.LcdClear
-                0x08000a58       0x50 ..\obj\WH12864A.o
-                0x08000a58                LcdClear
+                0x08000a44       0x50 ..\obj\WH12864A.o
+                0x08000a44                LcdClear
  .text.LcdUpdate
-                0x08000aa8       0x74 ..\obj\WH12864A.o
-                0x08000aa8                LcdUpdate
+                0x08000a94       0x74 ..\obj\WH12864A.o
+                0x08000a94                LcdUpdate
  .text.LcdPixel
-                0x08000b1c       0x50 ..\obj\WH12864A.o
-                0x08000b1c                LcdPixel
- .text.LcdLine  0x08000b6c       0xa0 ..\obj\WH12864A.o
-                0x08000b6c                LcdLine
+                0x08000b08       0x50 ..\obj\WH12864A.o
+                0x08000b08                LcdPixel
+ .text.LcdLine  0x08000b58       0xa0 ..\obj\WH12864A.o
+                0x08000b58                LcdLine
  .text.LcdCircle
-                0x08000c0c      0x108 ..\obj\WH12864A.o
-                0x08000c0c                LcdCircle
- .text.LcdRect  0x08000d14       0x6c ..\obj\WH12864A.o
-                0x08000d14                LcdRect
+                0x08000bf8      0x108 ..\obj\WH12864A.o
+                0x08000bf8                LcdCircle
+ .text.LcdRect  0x08000d00       0x6c ..\obj\WH12864A.o
+                0x08000d00                LcdRect
  .text.LcdGotoXYFont
-                0x08000d80       0x28 ..\obj\WH12864A.o
-                0x08000d80                LcdGotoXYFont
- .text.LcdChr   0x08000da8      0x25c ..\obj\WH12864A.o
-                0x08000da8                LcdChr
- .text.LcdStr   0x08001004       0x54 ..\obj\WH12864A.o
-                0x08001004                LcdStr
- .text.LcdFStr  0x08001058       0x48 ..\obj\WH12864A.o
-                0x08001058                LcdFStr
+                0x08000d6c       0x28 ..\obj\WH12864A.o
+                0x08000d6c                LcdGotoXYFont
+ .text.LcdChr   0x08000d94      0x25c ..\obj\WH12864A.o
+                0x08000d94                LcdChr
+ .text.LcdStr   0x08000ff0       0x54 ..\obj\WH12864A.o
+                0x08000ff0                LcdStr
+ .text.LcdFStr  0x08001044       0x48 ..\obj\WH12864A.o
+                0x08001044                LcdFStr
  .text.LcdIvertLineFragment
-                0x080010a0       0x74 ..\obj\WH12864A.o
-                0x080010a0                LcdIvertLineFragment
+                0x0800108c       0x74 ..\obj\WH12864A.o
+                0x0800108c                LcdIvertLineFragment
  .text.LcdImage
-                0x08001114       0x28 ..\obj\WH12864A.o
-                0x08001114                LcdImage
- .text          0x0800113c       0xec c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
-                0x0800113c                memcpy
+                0x08001100       0x28 ..\obj\WH12864A.o
+                0x08001100                LcdImage
+ .text          0x08001128       0xec c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
+                0x08001128                memcpy
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -537,42 +537,43 @@ Linker script and memory map
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08001228      0x400 ..\obj\main.o
+ .rodata        0x08001214      0x400 ..\obj\main.o
+                0x08001214                Picture
  .rodata.str1.4
-                0x08001628       0x24 ..\obj\main.o
+                0x08001614       0x24 ..\obj\main.o
                                  0x22 (size before relaxing)
- .rodata        0x0800164c      0x7f8 ..\obj\WH12864A.o
+ .rodata        0x08001638      0x7f8 ..\obj\WH12864A.o
  *(.eh_fram e*)
 
-.glue_7         0x08001e44        0x0
- .glue_7        0x08001e44        0x0 linker stubs
+.glue_7         0x08001e30        0x0
+ .glue_7        0x08001e30        0x0 linker stubs
 
-.glue_7t        0x08001e44        0x0
- .glue_7t       0x08001e44        0x0 linker stubs
+.glue_7t        0x08001e30        0x0
+ .glue_7t       0x08001e30        0x0 linker stubs
 
-.vfp11_veneer   0x08001e44        0x0
- .vfp11_veneer  0x08001e44        0x0 linker stubs
+.vfp11_veneer   0x08001e30        0x0
+ .vfp11_veneer  0x08001e30        0x0 linker stubs
 
-.v4_bx          0x08001e44        0x0
- .v4_bx         0x08001e44        0x0 linker stubs
+.v4_bx          0x08001e30        0x0
+ .v4_bx         0x08001e30        0x0 linker stubs
 
-.iplt           0x08001e44        0x0
- .iplt          0x08001e44        0x0 ..\obj\stm32f10x_tim.o
+.iplt           0x08001e30        0x0
+ .iplt          0x08001e30        0x0 ..\obj\stm32f10x_tim.o
 
-.rel.dyn        0x08001e44        0x0
- .rel.iplt      0x08001e44        0x0 ..\obj\stm32f10x_tim.o
+.rel.dyn        0x08001e30        0x0
+ .rel.iplt      0x08001e30        0x0 ..\obj\stm32f10x_tim.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08001e44                __exidx_start = .
+                0x08001e30                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x08001e44                __exidx_end = .
-                0x08001e44                __etext = .
-                0x08001e44                _sidata = __etext
+                0x08001e30                __exidx_end = .
+                0x08001e30                __etext = .
+                0x08001e30                _sidata = __etext
 
-.data           0x20000000        0x0 load address 0x08001e44
+.data           0x20000000        0x0 load address 0x08001e30
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
@@ -647,27 +648,27 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_WG12864A.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x642c
+.debug_info     0x00000000     0x6402
  .debug_info    0x00000000     0x2257 ..\obj\stm32f10x_tim.o
  .debug_info    0x00002257      0x4c8 ..\obj\system_stm32f10x.o
  .debug_info    0x0000271f      0x114 ..\obj\startup_stm32f10x_md.o
  .debug_info    0x00002833      0x88f ..\obj\stm32f10x_gpio.o
- .debug_info    0x000030c2      0xe02 ..\obj\main.o
- .debug_info    0x00003ec4      0x74b ..\obj\tim2_delay.o
- .debug_info    0x0000460f      0x8d7 ..\obj\stm32f10x_rcc.o
- .debug_info    0x00004ee6      0x55c ..\obj\misc.o
- .debug_info    0x00005442      0xfea ..\obj\WH12864A.o
+ .debug_info    0x000030c2      0xdd8 ..\obj\main.o
+ .debug_info    0x00003e9a      0x74b ..\obj\tim2_delay.o
+ .debug_info    0x000045e5      0x8d7 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00004ebc      0x55c ..\obj\misc.o
+ .debug_info    0x00005418      0xfea ..\obj\WH12864A.o
 
-.debug_abbrev   0x00000000      0xf20
+.debug_abbrev   0x00000000      0xf24
  .debug_abbrev  0x00000000      0x28c ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x0000028c      0x170 ..\obj\system_stm32f10x.o
  .debug_abbrev  0x000003fc       0xd3 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000004cf      0x1ed ..\obj\stm32f10x_gpio.o
- .debug_abbrev  0x000006bc      0x16b ..\obj\main.o
- .debug_abbrev  0x00000827      0x173 ..\obj\tim2_delay.o
- .debug_abbrev  0x0000099a      0x1e2 ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000b7c      0x156 ..\obj\misc.o
- .debug_abbrev  0x00000cd2      0x24e ..\obj\WH12864A.o
+ .debug_abbrev  0x000006bc      0x16f ..\obj\main.o
+ .debug_abbrev  0x0000082b      0x173 ..\obj\tim2_delay.o
+ .debug_abbrev  0x0000099e      0x1e2 ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000b80      0x156 ..\obj\misc.o
+ .debug_abbrev  0x00000cd6      0x24e ..\obj\WH12864A.o
 
 .debug_loc      0x00000000     0x382d
  .debug_loc     0x00000000     0x1cfe ..\obj\stm32f10x_tim.o
@@ -711,16 +712,16 @@ OUTPUT(Example_WG12864A.elf elf32-littlearm)
  .debug_ranges  0x000004e0       0x30 ..\obj\misc.o
  .debug_ranges  0x00000510       0xb0 ..\obj\WH12864A.o
 
-.debug_line     0x00000000     0x219e
+.debug_line     0x00000000     0x219c
  .debug_line    0x00000000      0xa30 ..\obj\stm32f10x_tim.o
  .debug_line    0x00000a30      0x1d5 ..\obj\system_stm32f10x.o
  .debug_line    0x00000c05       0x9e ..\obj\startup_stm32f10x_md.o
  .debug_line    0x00000ca3      0x3ad ..\obj\stm32f10x_gpio.o
- .debug_line    0x00001050      0x24a ..\obj\main.o
- .debug_line    0x0000129a      0x26f ..\obj\tim2_delay.o
- .debug_line    0x00001509      0x495 ..\obj\stm32f10x_rcc.o
- .debug_line    0x0000199e      0x246 ..\obj\misc.o
- .debug_line    0x00001be4      0x5ba ..\obj\WH12864A.o
+ .debug_line    0x00001050      0x248 ..\obj\main.o
+ .debug_line    0x00001298      0x26f ..\obj\tim2_delay.o
+ .debug_line    0x00001507      0x495 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x0000199c      0x246 ..\obj\misc.o
+ .debug_line    0x00001be2      0x5ba ..\obj\WH12864A.o
 
 .debug_str      0x00000000     0x1ecb
  .debug_str     0x00000000      0xd56 ..\obj\stm32f10x_tim.o
@@ -731,15 +732,15 @@ OUTPUT(Example_WG12864A.elf elf32-littlearm)
                                 0x15d (size before relaxing)
  .debug_str     0x00000f89      0x384 ..\obj\stm32f10x_gpio.o
                                 0x53e (size before relaxing)
- .debug_str     0x0000130d      0x1d7 ..\obj\main.o
-                                0x31d (size before relaxing)
- .debug_str     0x000014e4      0x3eb ..\obj\tim2_delay.o
+ .debug_str     0x0000130d      0x1d0 ..\obj\main.o
+                                0x316 (size before relaxing)
+ .debug_str     0x000014dd      0x3eb ..\obj\tim2_delay.o
                                 0x76e (size before relaxing)
- .debug_str     0x000018cf      0x30c ..\obj\stm32f10x_rcc.o
+ .debug_str     0x000018c8      0x30c ..\obj\stm32f10x_rcc.o
                                 0x628 (size before relaxing)
- .debug_str     0x00001bdb      0x155 ..\obj\misc.o
+ .debug_str     0x00001bd4      0x155 ..\obj\misc.o
                                 0x3cc (size before relaxing)
- .debug_str     0x00001d30      0x19b ..\obj\WH12864A.o
+ .debug_str     0x00001d29      0x1a2 ..\obj\WH12864A.o
                                 0x53f (size before relaxing)
 
 .comment        0x00000000       0x6e
@@ -777,13 +778,13 @@ OUTPUT(Example_WG12864A.elf elf32-littlearm)
  .ARM.attributes
                 0x000001cb       0x1b c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-memcpy.o)
 
-.debug_frame    0x00000000      0xe2c
+.debug_frame    0x00000000      0xe28
  .debug_frame   0x00000000      0x670 ..\obj\stm32f10x_tim.o
  .debug_frame   0x00000670       0x38 ..\obj\system_stm32f10x.o
  .debug_frame   0x000006a8       0x38 ..\obj\startup_stm32f10x_md.o
  .debug_frame   0x000006e0      0x168 ..\obj\stm32f10x_gpio.o
- .debug_frame   0x00000848       0x48 ..\obj\main.o
- .debug_frame   0x00000890       0x7c ..\obj\tim2_delay.o
- .debug_frame   0x0000090c      0x22c ..\obj\stm32f10x_rcc.o
- .debug_frame   0x00000b38       0x60 ..\obj\misc.o
- .debug_frame   0x00000b98      0x294 ..\obj\WH12864A.o
+ .debug_frame   0x00000848       0x44 ..\obj\main.o
+ .debug_frame   0x0000088c       0x7c ..\obj\tim2_delay.o
+ .debug_frame   0x00000908      0x22c ..\obj\stm32f10x_rcc.o
+ .debug_frame   0x00000b34       0x60 ..\obj\misc.o
+ .debug_frame   0x00000b94      0x294 ..\obj\WH12864A.o

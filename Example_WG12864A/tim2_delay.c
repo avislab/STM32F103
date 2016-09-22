@@ -21,7 +21,7 @@ void TIM2_init(void)
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 
-	// считаем один раз
+	// Рахуємо один раз
 	TIM_SelectOnePulseMode(TIM2, TIM_OPMode_Single);
 }
 
@@ -45,7 +45,7 @@ void delay_us(uint32_t n_usec)
   TIM2->ARR = (uint16_t)(16 * n_usec);
   TIM_Cmd(TIM6, ENABLE);
 
-  // для того чтобы установился PSC
+  // Для того щоб встановився PSC
   TIM2->EGR |= TIM_EGR_UG;
   TIM2->SR &= ~TIM_SR_UIF;
 
@@ -61,7 +61,7 @@ void delay_ms(uint32_t n_msec)
 
   TIM2->PSC = 1000 - 1;
   TIM2->ARR = (uint16_t)(16 * n_msec);
-  // для того чтобы установился PSC
+  // Для того щоб встановився PSC
   TIM2->EGR |= TIM_EGR_UG;
   TIM2->SR &= ~TIM_SR_UIF;
 
