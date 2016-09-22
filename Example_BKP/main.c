@@ -79,11 +79,11 @@ int main(void)
 	// Дозволити доступ до області резервних даних
 	PWR_BackupAccessCmd(ENABLE);
 
-	// Читаемо регістр BKP_DR1. Всього їх у STM32F103С8 42
+	// Читаємо регістр BKP_DR1. Всього їх у STM32F103С8 42
 	reload_counter = BKP_ReadBackupRegister(BKP_DR1);
 	// Збільшуємо на 1
 	reload_counter++;
-	// Пишемо у той же ругістр
+	// Пишемо у той же регістр
 	BKP_WriteBackupRegister(BKP_DR1, reload_counter);
 
 	// Виводимо у USART поточне значення регістра
