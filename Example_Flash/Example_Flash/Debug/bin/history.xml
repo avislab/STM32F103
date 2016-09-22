@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_Flash.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_Flash -TC:\CooCox\CoIDE\configuration\ProgramData\Example_Flash/arm-gcc-link.ld -g">
+      <target file="Example_Flash.elf" lastModified="1575100a438">
+         <source file="..\obj\system_stm32f10x.o" lastModified="15751009fe2"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1575100a021"/>
+         <source file="..\obj\main.o" lastModified="1575100a06f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1575100a169"/>
+         <source file="..\obj\syscalls.o" lastModified="1575100a1b7"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="1575100a253"/>
+      </target>
+   </processor>
+</history>

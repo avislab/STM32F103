@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_Flash\cmsis_boot -I..\..\..\workspace\Example_Flash\cmsis -I..\..\..\workspace\Example_Flash\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\Example_Flash -I..\..\..\workspace\Example_Flash\stm_lib">
+      <target file="stm32f10x_rcc.o" lastModified="1575100a169">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15645b31623"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1575100a021">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15645b276a7"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15751009fe2">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15645b276c6"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="1575100a253">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="15645b27669"/>
+      </target>
+      <target file="syscalls.o" lastModified="1575100a1b7">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15750efb457"/>
+      </target>
+      <target file="main.o" lastModified="1575100a06f">
+         <source file="..\..\..\main.c" lastModified="15751009718"/>
+      </target>
+   </processor>
+</history>
