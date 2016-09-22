@@ -16,47 +16,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/Example_RTC/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5717" selectionTopPixel="3308"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8762" selectionTopPixel="5044"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f10x.h" partName="system_stm32f10x.h" path="C:/CooCox/CoIDE/workspace/Example_RTC/cmsis_boot/system_stm32f10x.h" title="system_stm32f10x.h" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/cmsis_boot/system_stm32f10x.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/cmsis_boot/system_stm32f10x.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="802"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rtc.h" partName="stm32f10x_rtc.h" path="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/inc/stm32f10x_rtc.h" title="stm32f10x_rtc.h" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/inc/stm32f10x_rtc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/stm_lib/inc/stm32f10x_rtc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rtc.c" partName="stm32f10x_rtc.c" path="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_rtc.c" title="stm32f10x_rtc.c" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_rtc.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/stm_lib/src/stm32f10x_rtc.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="3212" selectionTopPixel="2057"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_pwr.c" partName="stm32f10x_pwr.c" path="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_pwr.c" title="stm32f10x_pwr.c" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_pwr.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/stm_lib/src/stm32f10x_pwr.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="3410" selectionTopPixel="1904"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.h" partName="stm32f10x_rcc.h" path="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/inc/stm32f10x_rcc.h" title="stm32f10x_rcc.h" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/inc/stm32f10x_rcc.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/stm_lib/inc/stm32f10x_rcc.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="29930" selectionTopPixel="11730"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_rcc.c" partName="stm32f10x_rcc.c" path="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_rcc.c" title="stm32f10x_rcc.c" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/stm_lib/src/stm32f10x_rcc.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/stm_lib/src/stm32f10x_rcc.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="3" selectionOffset="27981" selectionTopPixel="13753"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" partName="tim2_delay.h" path="C:/CooCox/CoIDE/workspace/Example_RTC/tim2_delay.h" title="tim2_delay.h" tooltip="C:/CooCox/CoIDE/workspace/Example_RTC/tim2_delay.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_RTC/tim2_delay.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="9" selectionOffset="154" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="10">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="9">
 <expanded>
 <element path="/Example_RTC"/>
 <element path="/Example_RTC/cmsis"/>
@@ -65,11 +40,10 @@
 <element path="/Example_RTC/stdio"/>
 <element path="/Example_RTC/stm_lib"/>
 <element path="/Example_RTC/stm_lib/inc"/>
-<element path="/Example_RTC/stm_lib/src"/>
 <element path="/Example_RTC/syscalls"/>
 </expanded>
 <selection>
-<element path="/Example_RTC/stm_lib/src/stm32f10x_rcc.c"/>
+<element path="/Example_RTC/tim2_delay.h"/>
 </selection>
 </viewState>
 </view>
@@ -273,161 +247,159 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_RTC/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_RTC/stm_lib/src/stm32f10x_rtc.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_RTC/stm_lib/src/stm32f10x_rcc.c"/>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="443" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="443" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="443" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="443" subPageIndex="2" verticalPosition="0"/>
-</editor>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/rtc.h"/>
 <editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
 <subPage/>
 </editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_RTC/stm_lib/src/stm32f10x_rtc.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_RTC/tim2_delay.h"/>
 </editors>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2983" y="0"/>
-</item>
-<item historyLabel="stm32f10x_rcc.c" index="2">
-<position info="not_deleted" x="28686" y="0"/>
+<item historyLabel="rtc.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3113" y="0"/>
+<position info="not_deleted" x="8" y="0"/>
 </item>
-<item historyLabel="stm32f10x_rcc.c" index="2">
-<position info="not_deleted" x="27981" y="3"/>
+<item historyLabel="rtc.h" index="1">
+<position info="not_deleted" x="1370" y="1085"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8" y="0"/>
+</item>
+<item historyLabel="rtc.h" index="1">
+<position info="not_deleted" x="1370" y="1085"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6260" y="0"/>
+</item>
+<item historyLabel="rtc.h" index="1">
+<position info="not_deleted" x="2480" y="773"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6260" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8705" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6297" y="18"/>
+</item>
+<item historyLabel="rtc.h" index="1">
+<position info="not_deleted" x="2934" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6297" y="18"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
-<item historyLabel="stm32f10x_rtc.c" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6216" y="39"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<position info="not_deleted" x="8228" y="0"/>
 </item>
-<item historyLabel="Repository" index="3"/>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<position info="not_deleted" x="8276" y="0"/>
 </item>
-<item historyLabel="welcome" index="4"/>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<position info="not_deleted" x="590" y="0"/>
 </item>
-<item historyLabel="welcome" index="5"/>
-<item historyLabel="Repository" index="6"/>
-<item historyLabel="welcome" index="5"/>
-<item historyLabel="Repository" index="6"/>
-<item historyLabel="welcome" index="5"/>
+<item historyLabel="Repository" index="2"/>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="4" y="0"/>
+<position/>
+</item>
+<item historyLabel="tim2_delay.h" index="3">
+<position info="not_deleted" x="154" y="9"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3375" y="31"/>
+<position info="not_deleted" x="8243" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3373" y="0"/>
+<position info="not_deleted" x="9265" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3547" y="0"/>
-</item>
-<item historyLabel="Repository" index="7"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3547" y="0"/>
+<position info="not_deleted" x="6953" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3542" y="0"/>
+<position info="not_deleted" x="7217" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3582" y="0"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3494" y="56"/>
-</item>
-<item historyLabel="Repository" index="8"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3347" y="0"/>
-</item>
-<item historyLabel="rtc.h" index="9">
-<position info="not_deleted" x="0" y="3340"/>
+<position info="not_deleted" x="7267" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5584" y="0"/>
-</item>
-<item historyLabel="rtc.h" index="9">
-<position info="not_deleted" x="0" y="3340"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5584" y="0"/>
-</item>
-<item historyLabel="Repository" index="10"/>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5584" y="0"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6092" y="0"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6285" y="0"/>
+<position info="not_deleted" x="7267" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6584" y="0"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6285" y="0"/>
+<position/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6041" y="56"/>
+<position info="not_deleted" x="7167" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="3844" y="0"/>
+<position info="not_deleted" x="6987" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6045" y="0"/>
+<position info="not_deleted" x="7197" y="615"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6241" y="48"/>
+<position info="not_deleted" x="7176" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5706" y="0"/>
+<position info="not_deleted" x="7025" y="36"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6241" y="48"/>
-</item>
-<item historyLabel="stm32f10x_rtc.c" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="stm32f10x_rtc.c" index="11">
-<position info="not_deleted" x="3212" y="8"/>
+<position info="not_deleted" x="6976" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="6529" y="0"/>
+<position info="not_deleted" x="7043" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="5606" y="0"/>
+<position info="not_deleted" x="7079" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
-<position info="not_deleted" x="2161" y="0"/>
+<position info="not_deleted" x="7114" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7147" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7961" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7814" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="7952" y="0"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="6878" y="80"/>
+</item>
+<item historyLabel="main.c" index="0">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="8323" y="0"/>
 </item>
 <item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="6152" y="60"/>
+<position info="not_deleted" x="9226" y="43"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -436,6 +408,35 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" tooltip="Example_RTC/tim2_delay.h">
+<persistable path="/Example_RTC/tim2_delay.h"/>
+</file>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>
+<subPage/>
+</persistable>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="rtc.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\rtc.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/rtc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.c" tooltip="Example_WG12864A/tim2_delay.c">
+<persistable path="/Example_WG12864A/tim2_delay.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="picture.h" tooltip="C:\CooCox\CoIDE\workspace\Example_WG12864A\picture.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_WG12864A/picture.h"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" tooltip="C:\CooCox\CoIDE\workspace\Example_WG12864A\tim2_delay.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_WG12864A/tim2_delay.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WG12864A.h" tooltip="Example_WG12864A/WG12864A.h">
+<persistable path="/Example_WG12864A/WG12864A.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_WG12864A/main.c">
+<persistable path="/Example_WG12864A/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WH12864A.c" tooltip="Example_WG12864A/WH12864A.c">
+<persistable path="/Example_WG12864A/WH12864A.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_bkp.h" tooltip="Example_BKP/stm_lib/inc/stm32f10x_bkp.h">
 <persistable path="/Example_BKP/stm_lib/inc/stm32f10x_bkp.h"/>
 </file>
@@ -453,33 +454,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="power.h" tooltip="VarioAcoustic/power.h">
 <persistable path="/VarioAcoustic/power.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart_dma.h" tooltip="VarioAcoustic/usart_dma.h">
-<persistable path="/VarioAcoustic/usart_dma.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="voice.h" tooltip="VarioAcoustic/voice.h">
-<persistable path="/VarioAcoustic/voice.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="picture.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\picture.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/picture.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="forms.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\forms.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/forms.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="strings.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\strings.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/strings.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="strings_ru.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\strings_ru.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/strings_ru.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="strings_ua.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\strings_ua.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/strings_ua.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="Example_Sonar/stm_lib/src/stm32f10x_gpio.c">
-<persistable path="/Example_Sonar/stm_lib/src/stm32f10x_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="strings.h" tooltip="C:\CooCox\CoIDE\workspace\VarioAcoustic\strings.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/VarioAcoustic/strings.h"/>
 </file>
 </mruList>
 </workbench>
