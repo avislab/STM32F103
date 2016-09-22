@@ -275,7 +275,7 @@ void RTC_GetMyFormat(RTC_DateTimeTypeDef* RTC_DateTimeStruct, char * buffer) {
 	sprintf(buffer, "%s %d %s %04d",
 			WDAY[RTC_DateTimeStruct->RTC_Wday],
 			RTC_DateTimeStruct->RTC_Date,
-			MONTH[RTC_DateTimeStruct->RTC_Month],
+			MONTH[RTC_DateTimeStruct->RTC_Month -1],
 			RTC_DateTimeStruct->RTC_Year);
 }
 //========================================================================================
