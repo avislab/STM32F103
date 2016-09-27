@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_watchdog.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_watchdog -TC:\CooCox\CoIDE\configuration\ProgramData\Example_watchdog/arm-gcc-link.ld -g">
+      <target file="Example_watchdog.elf" lastModified="1576aae7253">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1576aae6d32"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1576aae6d71"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1576aae6e3c"/>
+         <source file="..\obj\main.o" lastModified="1576aae6e7a"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1576aae6f46"/>
+         <source file="..\obj\syscalls.o" lastModified="1576aae6f94"/>
+         <source file="..\obj\misc.o" lastModified="1576aae6fe2"/>
+         <source file="..\obj\stm32f10x_wwdg.o" lastModified="1576aae7030"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="1576aae707e"/>
+      </target>
+   </processor>
+</history>
