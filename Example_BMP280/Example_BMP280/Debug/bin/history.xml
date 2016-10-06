@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_BMP280.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_BMP280 -TC:\CooCox\CoIDE\configuration\ProgramData\Example_BMP280/arm-gcc-link.ld -g">
+      <target file="Example_BMP280.elf" lastModified="15799a02c53">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15799a01e98"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15799a01ef6"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15799a0205d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15799a02176"/>
+         <source file="..\obj\main.o" lastModified="15799a021f3"/>
+         <source file="..\obj\printf.o" lastModified="15799a0228f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15799a02474"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15799a02510"/>
+         <source file="..\obj\syscalls.o" lastModified="15799a0255e"/>
+         <source file="..\obj\bmp280.o" lastModified="15799a025eb"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15799a02658"/>
+         <source file="..\obj\misc.o" lastModified="15799a026b6"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15799a02752"/>
+      </target>
+   </processor>
+</history>
