@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_DFPlayerMini.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_DFPlayerMini -TC:\CooCox\CoIDE\configuration\ProgramData\Example_DFPlayerMini/arm-gcc-link.ld -g">
+      <target file="Example_DFPlayerMini.elf" lastModified="15798fad3c6">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15798facbe6"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15798faccd1"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15798facd9c"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15798face29"/>
+         <source file="..\obj\main.o" lastModified="15798facea6"/>
+         <source file="..\obj\tim2_delay.o" lastModified="15798facf03"/>
+         <source file="..\obj\mp3_lib.o" lastModified="15798facf90"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15798fad01d"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15798fad0b9"/>
+         <source file="..\obj\syscalls.o" lastModified="15798fad107"/>
+         <source file="..\obj\misc.o" lastModified="15798fad165"/>
+      </target>
+   </processor>
+</history>
