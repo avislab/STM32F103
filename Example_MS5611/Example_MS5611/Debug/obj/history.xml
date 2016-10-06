@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace -I..\..\..\workspace\Example_MS5611\cmsis_boot -I..\..\..\workspace\Example_MS5611\stm_lib\inc -I..\..\..\workspace\Example_MS5611\stm_lib -I..\..\..\workspace\Example_MS5611\cmsis -I..\..\..\workspace\Example_MS5611">
+      <target file="syscalls.o" lastModified="157999b5e39">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156ff96be63"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="157999b5967">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="156ff98f16b"/>
+      </target>
+      <target file="ms5611.o" lastModified="157999b5f24">
+         <source file="..\..\..\ms5611.c" lastModified="157999a6eb9"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="157999b601e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="156ff96af6e"/>
+      </target>
+      <target file="printf.o" lastModified="157999b5cb3">
+         <source file="..\..\..\stdio\printf.c" lastModified="156ff96cd96"/>
+      </target>
+      <target file="tim2_delay.o" lastModified="157999b5c16">
+         <source file="..\..\..\tim2_delay.c" lastModified="1579508bd70"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="157999b59c5">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156ff96afad"/>
+      </target>
+      <target file="main.o" lastModified="157999b5bb9">
+         <source file="..\..\..\main.c" lastModified="157999b4c67"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="157999b5ddb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="156ff98a8d7"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="157999b5b3c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156ff96afdc"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="157999b5d3f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156ff96afdc"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="157999b5abf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156ff96af8e"/>
+      </target>
+      <target file="misc.o" lastModified="157999b5f72">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156ff98b9a0"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="157999b5e97">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="156ff96ec98"/>
+      </target>
+   </processor>
+</history>

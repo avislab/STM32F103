@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_MS5611.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_MS5611 -TC:\CooCox\CoIDE\configuration\ProgramData\Example_MS5611/arm-gcc-link.ld -g">
+      <target file="Example_MS5611.elf" lastModified="157999b63f6">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="157999b5967"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="157999b59c5"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="157999b5abf"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="157999b5b3c"/>
+         <source file="..\obj\main.o" lastModified="157999b5bb9"/>
+         <source file="..\obj\tim2_delay.o" lastModified="157999b5c16"/>
+         <source file="..\obj\printf.o" lastModified="157999b5cb3"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="157999b5d3f"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="157999b5ddb"/>
+         <source file="..\obj\syscalls.o" lastModified="157999b5e39"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="157999b5e97"/>
+         <source file="..\obj\ms5611.o" lastModified="157999b5f24"/>
+         <source file="..\obj\misc.o" lastModified="157999b5f72"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="157999b601e"/>
+      </target>
+   </processor>
+</history>
