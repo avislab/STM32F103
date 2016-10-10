@@ -85,7 +85,8 @@ int main(void)
     // MP3_send_cmd(MP3_PLAY_FOLDER_FILE, 5, 32); //folder 01..99, file 001..255
 
     //Make Voice QUEUE
-    MP3_say(MP3_NO_VALUE, -5763, MP3_NO_VALUE);
+    //MP3_say(MP3_NO_VALUE, -5763, MP3_NO_VALUE);
+    MP3_say(100, 5763, 103); // 100 - prefix file 100.mp3; 103-suffix file 103.mp3
 
     while (1)
     {
@@ -94,7 +95,7 @@ int main(void)
 
     	// Here your code
     	// ...
-    	delay_ms(10);
+    	delay_ms(100);
     	// ...
     	//
     }

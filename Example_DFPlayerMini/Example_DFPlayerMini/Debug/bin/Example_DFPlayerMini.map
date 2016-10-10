@@ -369,7 +369,7 @@ Linker script and memory map
 
                 0x20005000                _eram = 0x20005000
 
-.text           0x08000000      0xc54
+.text           0x08000000      0xc50
  *(.isr_vector)
  .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
                 0x08000000                g_pfnVectors
@@ -456,97 +456,97 @@ Linker script and memory map
  .text.SetSysClockToHSE
                 0x0800040c       0x3c ..\obj\main.o
                 0x0800040c                SetSysClockToHSE
- .text.main     0x08000448       0x50 ..\obj\main.o
+ .text.main     0x08000448       0x4c ..\obj\main.o
                 0x08000448                main
  .text.TIM2_init
-                0x08000498       0x54 ..\obj\tim2_delay.o
-                0x08000498                TIM2_init
+                0x08000494       0x54 ..\obj\tim2_delay.o
+                0x08000494                TIM2_init
  .text.TIM2_IRQHandler
-                0x080004ec       0x3c ..\obj\tim2_delay.o
-                0x080004ec                TIM2_IRQHandler
+                0x080004e8       0x3c ..\obj\tim2_delay.o
+                0x080004e8                TIM2_IRQHandler
  .text.delay_ms
-                0x08000528       0x50 ..\obj\tim2_delay.o
-                0x08000528                delay_ms
+                0x08000524       0x50 ..\obj\tim2_delay.o
+                0x08000524                delay_ms
  .text.MP3_init
-                0x08000578       0xc4 ..\obj\mp3_lib.o
-                0x08000578                MP3_init
+                0x08000574       0xc4 ..\obj\mp3_lib.o
+                0x08000574                MP3_init
  .text.MP3_clear_RXBuffer
-                0x0800063c       0x3c ..\obj\mp3_lib.o
-                0x0800063c                MP3_clear_RXBuffer
+                0x08000638       0x3c ..\obj\mp3_lib.o
+                0x08000638                MP3_clear_RXBuffer
  .text.USART3_IRQHandler
-                0x08000678       0x70 ..\obj\mp3_lib.o
-                0x08000678                USART3_IRQHandler
+                0x08000674       0x70 ..\obj\mp3_lib.o
+                0x08000674                USART3_IRQHandler
  .text.MP3_checksum
-                0x080006e8       0x1c ..\obj\mp3_lib.o
-                0x080006e8                MP3_checksum
+                0x080006e4       0x1c ..\obj\mp3_lib.o
+                0x080006e4                MP3_checksum
  .text.MP3_send_cmd
-                0x08000704       0x48 ..\obj\mp3_lib.o
-                0x08000704                MP3_send_cmd
- .text.MP3_say  0x0800074c       0xec ..\obj\mp3_lib.o
-                0x0800074c                MP3_say
+                0x08000700       0x48 ..\obj\mp3_lib.o
+                0x08000700                MP3_send_cmd
+ .text.MP3_say  0x08000748       0xec ..\obj\mp3_lib.o
+                0x08000748                MP3_say
  .text.MP3_queue_processing
-                0x08000838       0x54 ..\obj\mp3_lib.o
-                0x08000838                MP3_queue_processing
+                0x08000834       0x54 ..\obj\mp3_lib.o
+                0x08000834                MP3_queue_processing
  .text.MP3_set_folder
-                0x0800088c        0xc ..\obj\mp3_lib.o
-                0x0800088c                MP3_set_folder
+                0x08000888        0xc ..\obj\mp3_lib.o
+                0x08000888                MP3_set_folder
  .text.RCC_DeInit
-                0x08000898       0x40 ..\obj\stm32f10x_rcc.o
-                0x08000898                RCC_DeInit
+                0x08000894       0x40 ..\obj\stm32f10x_rcc.o
+                0x08000894                RCC_DeInit
  .text.RCC_HSEConfig
-                0x080008d8       0x3c ..\obj\stm32f10x_rcc.o
-                0x080008d8                RCC_HSEConfig
+                0x080008d4       0x3c ..\obj\stm32f10x_rcc.o
+                0x080008d4                RCC_HSEConfig
  .text.RCC_SYSCLKConfig
-                0x08000914       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000914                RCC_SYSCLKConfig
+                0x08000910       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000910                RCC_SYSCLKConfig
  .text.RCC_GetSYSCLKSource
-                0x08000928       0x10 ..\obj\stm32f10x_rcc.o
-                0x08000928                RCC_GetSYSCLKSource
+                0x08000924       0x10 ..\obj\stm32f10x_rcc.o
+                0x08000924                RCC_GetSYSCLKSource
  .text.RCC_HCLKConfig
-                0x08000938       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000938                RCC_HCLKConfig
+                0x08000934       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000934                RCC_HCLKConfig
  .text.RCC_PCLK1Config
-                0x0800094c       0x14 ..\obj\stm32f10x_rcc.o
-                0x0800094c                RCC_PCLK1Config
+                0x08000948       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000948                RCC_PCLK1Config
  .text.RCC_PCLK2Config
-                0x08000960       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000960                RCC_PCLK2Config
+                0x0800095c       0x14 ..\obj\stm32f10x_rcc.o
+                0x0800095c                RCC_PCLK2Config
  .text.RCC_GetClocksFreq
-                0x08000974       0xb0 ..\obj\stm32f10x_rcc.o
-                0x08000974                RCC_GetClocksFreq
+                0x08000970       0xb0 ..\obj\stm32f10x_rcc.o
+                0x08000970                RCC_GetClocksFreq
  .text.RCC_APB2PeriphClockCmd
-                0x08000a24       0x1c ..\obj\stm32f10x_rcc.o
-                0x08000a24                RCC_APB2PeriphClockCmd
+                0x08000a20       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000a20                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x08000a40       0x1c ..\obj\stm32f10x_rcc.o
-                0x08000a40                RCC_APB1PeriphClockCmd
+                0x08000a3c       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000a3c                RCC_APB1PeriphClockCmd
  .text.RCC_GetFlagStatus
-                0x08000a5c       0x28 ..\obj\stm32f10x_rcc.o
-                0x08000a5c                RCC_GetFlagStatus
+                0x08000a58       0x28 ..\obj\stm32f10x_rcc.o
+                0x08000a58                RCC_GetFlagStatus
  .text.RCC_WaitForHSEStartUp
-                0x08000a84       0x34 ..\obj\stm32f10x_rcc.o
-                0x08000a84                RCC_WaitForHSEStartUp
+                0x08000a80       0x34 ..\obj\stm32f10x_rcc.o
+                0x08000a80                RCC_WaitForHSEStartUp
  .text.USART_Init
-                0x08000ab8       0xb8 ..\obj\stm32f10x_usart.o
-                0x08000ab8                USART_Init
+                0x08000ab4       0xb8 ..\obj\stm32f10x_usart.o
+                0x08000ab4                USART_Init
  .text.USART_Cmd
-                0x08000b70       0x1c ..\obj\stm32f10x_usart.o
-                0x08000b70                USART_Cmd
+                0x08000b6c       0x1c ..\obj\stm32f10x_usart.o
+                0x08000b6c                USART_Cmd
  .text.USART_ITConfig
-                0x08000b8c       0x38 ..\obj\stm32f10x_usart.o
-                0x08000b8c                USART_ITConfig
+                0x08000b88       0x38 ..\obj\stm32f10x_usart.o
+                0x08000b88                USART_ITConfig
  .text.USART_SendData
-                0x08000bc4        0x8 ..\obj\stm32f10x_usart.o
-                0x08000bc4                USART_SendData
+                0x08000bc0        0x8 ..\obj\stm32f10x_usart.o
+                0x08000bc0                USART_SendData
  .text.USART_ReceiveData
-                0x08000bcc        0x8 ..\obj\stm32f10x_usart.o
-                0x08000bcc                USART_ReceiveData
+                0x08000bc8        0x8 ..\obj\stm32f10x_usart.o
+                0x08000bc8                USART_ReceiveData
  .text.USART_GetFlagStatus
-                0x08000bd4        0xc ..\obj\stm32f10x_usart.o
-                0x08000bd4                USART_GetFlagStatus
+                0x08000bd0        0xc ..\obj\stm32f10x_usart.o
+                0x08000bd0                USART_GetFlagStatus
  .text.NVIC_Init
-                0x08000be0       0x64 ..\obj\misc.o
-                0x08000be0                NVIC_Init
+                0x08000bdc       0x64 ..\obj\misc.o
+                0x08000bdc                NVIC_Init
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -560,38 +560,38 @@ Linker script and memory map
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08000c44       0x10 ..\obj\mp3_lib.o
+ .rodata        0x08000c40       0x10 ..\obj\mp3_lib.o
  *(.eh_fram e*)
 
-.glue_7         0x08000c54        0x0
- .glue_7        0x08000c54        0x0 linker stubs
+.glue_7         0x08000c50        0x0
+ .glue_7        0x08000c50        0x0 linker stubs
 
-.glue_7t        0x08000c54        0x0
- .glue_7t       0x08000c54        0x0 linker stubs
+.glue_7t        0x08000c50        0x0
+ .glue_7t       0x08000c50        0x0 linker stubs
 
-.vfp11_veneer   0x08000c54        0x0
- .vfp11_veneer  0x08000c54        0x0 linker stubs
+.vfp11_veneer   0x08000c50        0x0
+ .vfp11_veneer  0x08000c50        0x0 linker stubs
 
-.v4_bx          0x08000c54        0x0
- .v4_bx         0x08000c54        0x0 linker stubs
+.v4_bx          0x08000c50        0x0
+ .v4_bx         0x08000c50        0x0 linker stubs
 
-.iplt           0x08000c54        0x0
- .iplt          0x08000c54        0x0 ..\obj\stm32f10x_tim.o
+.iplt           0x08000c50        0x0
+ .iplt          0x08000c50        0x0 ..\obj\stm32f10x_tim.o
 
-.rel.dyn        0x08000c54        0x0
- .rel.iplt      0x08000c54        0x0 ..\obj\stm32f10x_tim.o
+.rel.dyn        0x08000c50        0x0
+ .rel.iplt      0x08000c50        0x0 ..\obj\stm32f10x_tim.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08000c54                __exidx_start = .
+                0x08000c50                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x08000c54                __exidx_end = .
-                0x08000c54                __etext = .
-                0x08000c54                _sidata = __etext
+                0x08000c50                __exidx_end = .
+                0x08000c50                __etext = .
+                0x08000c50                _sidata = __etext
 
-.data           0x20000000       0x2c load address 0x08000c54
+.data           0x20000000       0x2c load address 0x08000c50
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
@@ -621,10 +621,10 @@ Linker script and memory map
                 0x2000002c                __data_end__ = .
                 0x2000002c                _edata = __data_end__
 
-.igot.plt       0x2000002c        0x0 load address 0x08000c80
+.igot.plt       0x2000002c        0x0 load address 0x08000c7c
  .igot.plt      0x2000002c        0x0 ..\obj\stm32f10x_tim.o
 
-.bss            0x2000002c       0x1c load address 0x08000c80
+.bss            0x2000002c       0x1c load address 0x08000c7c
                 0x2000002c                . = ALIGN (0x4)
                 0x2000002c                __bss_start__ = .
                 0x2000002c                _sbss = __bss_start__
@@ -651,7 +651,7 @@ Linker script and memory map
  *(.heap*)
                 0x20000048                __HeapLimit = .
 
-.co_stack       0x20000048      0x400 load address 0x08000c9c
+.co_stack       0x20000048      0x400 load address 0x08000c98
                 0x20000048                . = ALIGN (0x8)
  *(.co_stack .co_stack.*)
  .co_stack      0x20000048      0x400 ..\obj\startup_stm32f10x_md.o

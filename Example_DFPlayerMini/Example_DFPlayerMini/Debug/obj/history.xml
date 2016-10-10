@@ -1,37 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_DFPlayerMini\cmsis_boot -I..\..\..\workspace\Example_DFPlayerMini\stm_lib -I..\..\..\workspace\Example_DFPlayerMini -I..\..\..\workspace -I..\..\.. -I..\..\..\workspace\Example_DFPlayerMini\cmsis -I..\..\..\workspace\Example_DFPlayerMini\stm_lib\inc">
-      <target file="syscalls.o" lastModified="15798fad107">
+      <target file="syscalls.o" lastModified="157ad6ea4bf">
          <source file="..\..\..\syscalls\syscalls.c" lastModified="15789af0efa"/>
       </target>
-      <target file="stm32f10x_tim.o" lastModified="15798facbe6">
+      <target file="stm32f10x_tim.o" lastModified="157ad6e9fec">
          <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15789af522d"/>
       </target>
-      <target file="tim2_delay.o" lastModified="15798facf03">
+      <target file="tim2_delay.o" lastModified="157ad6ea2bb">
          <source file="..\..\..\tim2_delay.c" lastModified="1579508bd70"/>
       </target>
-      <target file="mp3_lib.o" lastModified="15798facf90">
+      <target file="mp3_lib.o" lastModified="157ad6ea348">
          <source file="..\..\..\mp3_lib.c" lastModified="15798eec5d6"/>
       </target>
-      <target file="system_stm32f10x.o" lastModified="15798faccd1">
+      <target file="system_stm32f10x.o" lastModified="157ad6ea03b">
          <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15789af336a"/>
       </target>
-      <target file="main.o" lastModified="15798facea6">
-         <source file="..\..\..\main.c" lastModified="15798eb7042"/>
+      <target file="main.o" lastModified="157ad6ea26d">
+         <source file="..\..\..\main.c" lastModified="157ad6e9b59"/>
       </target>
-      <target file="stm32f10x_usart.o" lastModified="15798fad0b9">
+      <target file="stm32f10x_usart.o" lastModified="157ad6ea471">
          <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15789af4646"/>
       </target>
-      <target file="stm32f10x_gpio.o" lastModified="15798face29">
+      <target file="stm32f10x_gpio.o" lastModified="157ad6ea21f">
          <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15789af334b"/>
       </target>
-      <target file="stm32f10x_rcc.o" lastModified="15798fad01d">
+      <target file="stm32f10x_rcc.o" lastModified="157ad6ea3d4">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15789af3399"/>
       </target>
-      <target file="startup_stm32f10x_md.o" lastModified="15798facd9c">
+      <target file="startup_stm32f10x_md.o" lastModified="157ad6ea163">
          <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15789af335a"/>
       </target>
-      <target file="misc.o" lastModified="15798fad165">
+      <target file="misc.o" lastModified="157ad6ea50d">
          <source file="..\..\..\stm_lib\src\misc.c" lastModified="15789afb0d7"/>
       </target>
    </processor>
