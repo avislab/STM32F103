@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_I2C_Slave.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_I2C_Slave -TC:\CooCox\CoIDE\configuration\ProgramData\Example_I2C_Slave/arm-gcc-link.ld -g">
+      <target file="Example_I2C_Slave.elf" lastModified="157e5baef12">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="157e5bae687"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="157e5bae6e4"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="157e5bae81d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="157e5bae88a"/>
+         <source file="..\obj\main.o" lastModified="157e5bae8d8"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="157e5bae946"/>
+         <source file="..\obj\i2c_slave.o" lastModified="157e5bae9a4"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="157e5baea11"/>
+         <source file="..\obj\syscalls.o" lastModified="157e5baea5f"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="157e5baeabd"/>
+         <source file="..\obj\misc.o" lastModified="157e5baeb0b"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="157e5baeb78"/>
+      </target>
+   </processor>
+</history>
