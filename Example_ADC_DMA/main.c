@@ -164,7 +164,7 @@ void ADC_DMA_init(void)
 
 	RCC_ADCCLKConfig(RCC_PCLK2_Div6);
     /* Enable ADC1 and GPIOA clock */
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1 | RCC_APB2Periph_GPIOA, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1 | RCC_APB2Periph_AFIO | RCC_APB2Periph_GPIOA, ENABLE);
 	RCC_AHBPeriphClockCmd(RCC_AHBPeriph_DMA1 , ENABLE );
 
 	DMA_InitStructure.DMA_BufferSize = 4;
@@ -180,12 +180,9 @@ void ADC_DMA_init(void)
 	DMA_InitStructure.DMA_Priority = DMA_Priority_High;
 	DMA_Init(DMA1_Channel1, &DMA_InitStructure);
 	DMA_Cmd(DMA1_Channel1 , ENABLE ) ;
-	RCC_ADCCLKConfig(RCC_PCLK2_Div6 ) ;
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_AFIO | RCC_APB2Periph_ADC1 ,	ENABLE ) ;
 
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
 	ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;
