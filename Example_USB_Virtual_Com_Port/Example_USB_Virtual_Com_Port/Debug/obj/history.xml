@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_USB_Virtual_Com_Port\stm_lib\inc -I..\..\..\workspace\Example_USB_Virtual_Com_Port\STM32_USB-FS-Device_Lib -I..\..\..\workspace\Example_USB_Virtual_Com_Port\stm_lib -I..\..\..\workspace -I..\..\..\workspace\Example_USB_Virtual_Com_Port\cmsis_boot -I..\..\..\workspace\Example_USB_Virtual_Com_Port\cmsis -I..\..\..\workspace\Example_USB_Virtual_Com_Port">
+      <target file="hw_config.o" lastModified="1581a1f0a17">
+         <source file="..\..\..\hw_config.c" lastModified="156a23fe96e"/>
+      </target>
+      <target file="usb_int.o" lastModified="1581a1f06bc">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_int.c" lastModified="156a2414d43"/>
+      </target>
+      <target file="usb_sil.o" lastModified="1581a1f0e1e">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_sil.c" lastModified="13c5defa520"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1581a1f0d63">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="156a261bfc8"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="1581a1f098a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="156a2a9a443"/>
+      </target>
+      <target file="misc.o" lastModified="1581a1f0f86">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="156a2621923"/>
+      </target>
+      <target file="usb_mem.o" lastModified="1581a1f0fe4">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_mem.c" lastModified="13c5defa520"/>
+      </target>
+      <target file="usb_endp.o" lastModified="1581a1f0f28">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_endp.c" lastModified="156a24135c4"/>
+      </target>
+      <target file="usb_istr.o" lastModified="1581a1f1051">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_istr.c" lastModified="156a2416bd7"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1581a1f092d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="156a261b47d"/>
+      </target>
+      <target file="stm32_it.o" lastModified="1581a1f0eda">
+         <source file="..\..\..\stm32_it.c" lastModified="13c5def4f30"/>
+      </target>
+      <target file="usb_regs.o" lastModified="1581a1f08ee">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_regs.c" lastModified="13c5defa520"/>
+      </target>
+      <target file="usb_pwr.o" lastModified="1581a1f0bfb">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_pwr.c" lastModified="156a2418c02"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1581a1f0af2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="156a261c71b"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="1581a1f0dc1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="156a2831e33"/>
+      </target>
+      <target file="usb_core.o" lastModified="1581a1f063f">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_core.c" lastModified="156a240f753"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1581a1f0719">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="156a261b48d"/>
+      </target>
+      <target file="usb_desc.o" lastModified="1581a1f0767">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_desc.c" lastModified="13c5def4f30"/>
+      </target>
+      <target file="syscalls.o" lastModified="1581a1f0e7c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="156a2931db9"/>
+      </target>
+      <target file="usb_init.o" lastModified="1581a1f0c4a">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_init.c" lastModified="13c5defa520"/>
+      </target>
+      <target file="usb_prop.o" lastModified="1581a1f0b6f">
+         <source file="..\..\..\STM32_USB-FS-Device_Lib\usb_prop.c" lastModified="1569de8ccaf"/>
+      </target>
+      <target file="main.o" lastModified="1581a1f0ca7">
+         <source file="..\..\..\main.c" lastModified="1581a13a82d"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_USB_Virtual_Com_Port.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_USB_Virtual_Com_Port -TC:\CooCox\CoIDE\configuration\ProgramData\Example_USB_Virtual_Com_Port/arm-gcc-link.ld -g">
+      <target file="Example_USB_Virtual_Com_Port.elf" lastModified="1581a1f168b">
+         <source file="..\obj\usb_core.o" lastModified="1581a1f063f"/>
+         <source file="..\obj\usb_int.o" lastModified="1581a1f06bc"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1581a1f0719"/>
+         <source file="..\obj\usb_desc.o" lastModified="1581a1f0767"/>
+         <source file="..\obj\usb_regs.o" lastModified="1581a1f08ee"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1581a1f092d"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1581a1f098a"/>
+         <source file="..\obj\hw_config.o" lastModified="1581a1f0a17"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1581a1f0af2"/>
+         <source file="..\obj\usb_prop.o" lastModified="1581a1f0b6f"/>
+         <source file="..\obj\usb_pwr.o" lastModified="1581a1f0bfb"/>
+         <source file="..\obj\usb_init.o" lastModified="1581a1f0c4a"/>
+         <source file="..\obj\main.o" lastModified="1581a1f0ca7"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1581a1f0d63"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1581a1f0dc1"/>
+         <source file="..\obj\usb_sil.o" lastModified="1581a1f0e1e"/>
+         <source file="..\obj\syscalls.o" lastModified="1581a1f0e7c"/>
+         <source file="..\obj\stm32_it.o" lastModified="1581a1f0eda"/>
+         <source file="..\obj\usb_endp.o" lastModified="1581a1f0f28"/>
+         <source file="..\obj\misc.o" lastModified="1581a1f0f86"/>
+         <source file="..\obj\usb_mem.o" lastModified="1581a1f0fe4"/>
+         <source file="..\obj\usb_istr.o" lastModified="1581a1f1051"/>
+      </target>
+   </processor>
+</history>
