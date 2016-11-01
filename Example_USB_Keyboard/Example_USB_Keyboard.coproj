@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.8" name="Example_USB_Keyboard">
+  <Target name="Example_USB_Keyboard" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="305" chipName="STM32F103C8" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="3"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F103C8"/>
+          <Define name="STM32F10X_MD"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+          <Define name="__ASSEMBLY__"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value="--entry=main; "/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00010000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00005000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../configuration/programdata/Example_USB_Keyboard/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Example_USB_Keyboard"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="STM32F10x_MD_64.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="439" name="CMSIS_Boot" path="" type="2"/>
+    <Component id="440" name="RCC" path="" type="2"/>
+    <Component id="442" name="PWR" path="" type="2"/>
+    <Component id="444" name="GPIO" path="" type="2"/>
+    <Component id="445" name="EXTI" path="" type="2"/>
+    <Component id="467" name="MISC" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_istr.h" path="STM32_USB-FS-Device_Lib/usb_istr.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_regs.c" path="STM32_USB-FS-Device_Lib/usb_regs.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_pwr.h" path="STM32_USB-FS-Device_Lib/usb_pwr.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_desc.h" path="STM32_USB-FS-Device_Lib/usb_desc.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_mem.h" path="STM32_USB-FS-Device_Lib/usb_mem.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_pwr.h" path="stm_lib/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
+    <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
+    <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_def.h" path="STM32_USB-FS-Device_Lib/usb_def.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_mem.c" path="STM32_USB-FS-Device_Lib/usb_mem.c" type="1"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_desc.c" path="STM32_USB-FS-Device_Lib/usb_desc.c" type="1"/>
+    <File name="stm32_it.c" path="stm32_it.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_prop.c" path="STM32_USB-FS-Device_Lib/usb_prop.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_pwr.c" path="STM32_USB-FS-Device_Lib/usb_pwr.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
+    <File name="cmsis_boot/startup/startup_stm32f10x_md.c" path="cmsis_boot/startup/startup_stm32f10x_md.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_init.c" path="STM32_USB-FS-Device_Lib/usb_init.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_int.h" path="STM32_USB-FS-Device_Lib/usb_int.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_lib.h" path="STM32_USB-FS-Device_Lib/usb_lib.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
+    <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_istr.c" path="STM32_USB-FS-Device_Lib/usb_istr.c" type="1"/>
+    <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="keycodes.c" path="keycodes.c" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_exti.c" path="stm_lib/src/stm32f10x_exti.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_endp.c" path="STM32_USB-FS-Device_Lib/usb_endp.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_rcc.c" path="stm_lib/src/stm32f10x_rcc.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_core.c" path="STM32_USB-FS-Device_Lib/usb_core.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_regs.h" path="STM32_USB-FS-Device_Lib/usb_regs.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_type.h" path="STM32_USB-FS-Device_Lib/usb_type.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_sil.c" path="STM32_USB-FS-Device_Lib/usb_sil.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_init.h" path="STM32_USB-FS-Device_Lib/usb_init.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_sil.h" path="STM32_USB-FS-Device_Lib/usb_sil.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_core.h" path="STM32_USB-FS-Device_Lib/usb_core.h" type="1"/>
+    <File name="stm_lib/src" path="" type="2"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="stm_lib" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc" path="" type="2"/>
+    <File name="stm_lib/inc/stm32f10x_exti.h" path="stm_lib/inc/stm32f10x_exti.h" type="1"/>
+    <File name="hw_config.c" path="hw_config.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_prop.h" path="STM32_USB-FS-Device_Lib/usb_prop.h" type="1"/>
+    <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_conf.h" path="STM32_USB-FS-Device_Lib/usb_conf.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_def.h" path="STM32_USB-FS-Device_Lib/usb_def.h" type="1"/>
+    <File name="stm_lib/inc" path="" type="2"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_int.c" path="STM32_USB-FS-Device_Lib/usb_int.c" type="1"/>
+  </Files>
+</Project>
