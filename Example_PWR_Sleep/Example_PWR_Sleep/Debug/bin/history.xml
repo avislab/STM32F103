@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWR_Sleep.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Sleep -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Sleep/arm-gcc-link.ld -g">
+      <target file="Example_PWR_Sleep.elf" lastModified="1583d7fd8c3">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1583d7fd364"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1583d7fd3b2"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1583d7fd46e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1583d7fd4db"/>
+         <source file="..\obj\main.o" lastModified="1583d7fd529"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1583d7fd597"/>
+         <source file="..\obj\misc.o" lastModified="1583d7fd5e5"/>
+      </target>
+   </processor>
+</history>

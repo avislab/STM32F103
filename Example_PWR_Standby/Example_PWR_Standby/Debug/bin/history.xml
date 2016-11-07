@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWR_Standby.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Standby -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Standby/arm-gcc-link.ld -g">
+      <target file="Example_PWR_Standby.elf" lastModified="1583d817e0d">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1583d817727"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1583d817831"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1583d8179c7"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1583d817ac1"/>
+         <source file="..\obj\main.o" lastModified="1583d817b0f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1583d817bdb"/>
+      </target>
+   </processor>
+</history>

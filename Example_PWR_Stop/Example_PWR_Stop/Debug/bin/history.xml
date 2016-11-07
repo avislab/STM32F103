@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWR_Stop.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Stop -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Stop/arm-gcc-link.ld -g">
+      <target file="Example_PWR_Stop.elf" lastModified="1583d843373">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="1583d842cdc"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1583d842d2a"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1583d842d68"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1583d842dc6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1583d842e24"/>
+         <source file="..\obj\main.o" lastModified="1583d842e72"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1583d842eef"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1583d842f3d"/>
+         <source file="..\obj\misc.o" lastModified="1583d843018"/>
+      </target>
+   </processor>
+</history>

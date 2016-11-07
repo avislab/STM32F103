@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWR_PVD.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_PVD -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_PVD/arm-gcc-link.ld -g">
+      <target file="Example_PWR_PVD.elf" lastModified="1583d7ed672">
+         <source file="..\obj\system_stm32f10x.o" lastModified="1583d7eca8b"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1583d7ecaca"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1583d7ecbd3"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1583d7eccae"/>
+         <source file="..\obj\main.o" lastModified="1583d7ecced"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1583d7ecd6a"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="1583d7ecdb8"/>
+         <source file="..\obj\misc.o" lastModified="1583d7ece06"/>
+      </target>
+   </processor>
+</history>

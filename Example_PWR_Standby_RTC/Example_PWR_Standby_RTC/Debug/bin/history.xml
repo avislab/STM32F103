@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PWR_Standby_RTC.map -O1 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Standby_RTC -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PWR_Standby_RTC/arm-gcc-link.ld -g">
+      <target file="Example_PWR_Standby_RTC.elf" lastModified="1583d82eb00">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="1583d82e5d0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="1583d82e62e"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="1583d82e6da"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="1583d82e728"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1583d82e7a5"/>
+         <source file="..\obj\main.o" lastModified="1583d82e803"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="1583d82e88f"/>
+      </target>
+   </processor>
+</history>

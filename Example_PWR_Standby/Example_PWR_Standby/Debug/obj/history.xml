@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O1 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_PWR_Standby\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\Example_PWR_Standby\stm_lib -I..\..\..\workspace\Example_PWR_Standby\stm_lib\inc -I..\..\..\workspace\Example_PWR_Standby\cmsis -I..\..\..\workspace\Example_PWR_Standby">
+      <target file="stm32f10x_rcc.o" lastModified="1583d817bdb">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="1566e1750a8"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="1583d817831">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="1582f06f8b2"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1583d8179c7">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="1566e17502b"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1583d817727">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="1566e17506a"/>
+      </target>
+      <target file="main.o" lastModified="1583d817b0f">
+         <source file="..\..\..\main.c" lastModified="1583d8167c6"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1583d817ac1">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="1566e174ffc"/>
+      </target>
+   </processor>
+</history>
