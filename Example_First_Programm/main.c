@@ -23,11 +23,5 @@ int main(void)
 
     /* delay */
     for(i=0;i<0x100000;i++);
-
-    /* Toggle LED which connected to PC13*/
-    GPIOC->ODR ^= GPIO_Pin_13;
-
-    /* delay */
-    for(i=0;i<0x100000;i++);
   }
 }

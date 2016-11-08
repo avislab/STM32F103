@@ -126,7 +126,7 @@ Linker script and memory map
 
                 0x20005000                _eram = 0x20005000
 
-.text           0x08000000      0x508
+.text           0x08000000      0x4e8
  *(.isr_vector)
  .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
                 0x08000000                g_pfnVectors
@@ -199,11 +199,11 @@ Linker script and memory map
  .text.GPIO_Init
                 0x080002e8      0x178 ..\obj\stm32f10x_gpio.o
                 0x080002e8                GPIO_Init
- .text.main     0x08000460       0x6c ..\obj\main.o
+ .text.main     0x08000460       0x4c ..\obj\main.o
                 0x08000460                main
  .text.RCC_APB2PeriphClockCmd
-                0x080004cc       0x3c ..\obj\stm32f10x_rcc.o
-                0x080004cc                RCC_APB2PeriphClockCmd
+                0x080004ac       0x3c ..\obj\stm32f10x_rcc.o
+                0x080004ac                RCC_APB2PeriphClockCmd
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -219,35 +219,35 @@ Linker script and memory map
  *(.rodata*)
  *(.eh_fram e*)
 
-.glue_7         0x08000508        0x0
- .glue_7        0x08000508        0x0 linker stubs
+.glue_7         0x080004e8        0x0
+ .glue_7        0x080004e8        0x0 linker stubs
 
-.glue_7t        0x08000508        0x0
- .glue_7t       0x08000508        0x0 linker stubs
+.glue_7t        0x080004e8        0x0
+ .glue_7t       0x080004e8        0x0 linker stubs
 
-.vfp11_veneer   0x08000508        0x0
- .vfp11_veneer  0x08000508        0x0 linker stubs
+.vfp11_veneer   0x080004e8        0x0
+ .vfp11_veneer  0x080004e8        0x0 linker stubs
 
-.v4_bx          0x08000508        0x0
- .v4_bx         0x08000508        0x0 linker stubs
+.v4_bx          0x080004e8        0x0
+ .v4_bx         0x080004e8        0x0 linker stubs
 
-.iplt           0x08000508        0x0
- .iplt          0x08000508        0x0 ..\obj\system_stm32f10x.o
+.iplt           0x080004e8        0x0
+ .iplt          0x080004e8        0x0 ..\obj\system_stm32f10x.o
 
-.rel.dyn        0x08000508        0x0
- .rel.iplt      0x08000508        0x0 ..\obj\system_stm32f10x.o
+.rel.dyn        0x080004e8        0x0
+ .rel.iplt      0x080004e8        0x0 ..\obj\system_stm32f10x.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08000508                __exidx_start = .
+                0x080004e8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x08000508                __exidx_end = .
-                0x08000508                __etext = .
-                0x08000508                _sidata = __etext
+                0x080004e8                __exidx_end = .
+                0x080004e8                __etext = .
+                0x080004e8                _sidata = __etext
 
-.data           0x20000000        0x0 load address 0x08000508
+.data           0x20000000        0x0 load address 0x080004e8
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
@@ -345,12 +345,12 @@ OUTPUT(Example_First_Programm.elf elf32-littlearm)
  .debug_ranges  0x000000d8       0x10 ..\obj\main.o
  .debug_ranges  0x000000e8      0x108 ..\obj\stm32f10x_rcc.o
 
-.debug_line     0x00000000      0xdf0
+.debug_line     0x00000000      0xde2
  .debug_line    0x00000000      0x230 ..\obj\system_stm32f10x.o
  .debug_line    0x00000230       0xae ..\obj\startup_stm32f10x_md.o
  .debug_line    0x000002de      0x3f8 ..\obj\stm32f10x_gpio.o
- .debug_line    0x000006d6      0x227 ..\obj\main.o
- .debug_line    0x000008fd      0x4f3 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x000006d6      0x219 ..\obj\main.o
+ .debug_line    0x000008ef      0x4f3 ..\obj\stm32f10x_rcc.o
 
 .debug_str      0x00000000      0xb55
  .debug_str     0x00000000      0x294 ..\obj\system_stm32f10x.o

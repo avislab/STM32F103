@@ -2,7 +2,11 @@
 <workbench version="2.0">
 <workbenchAdvisor/>
 <window>
-<fastViewData fastViewLocation="1024"/>
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
+<orientation position="512" view="org.eclipse.debug.ui.VariableView"/>
+<orientation position="512" view="org.coocox.component.ui.Help"/>
+</fastViewData>
 <perspectiveBar/>
 <page aggregateWorkingSetId="Aggregate for window 1468404352568" focus="true" label="Workspace - CooCox CoBuilder">
 <editors>
@@ -27,7 +31,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/Example_First_Programm/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/Example_First_Programm/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_First_Programm/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="700" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -310,48 +314,49 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_First_Programm/main.c">
-<persistable path="/Example_First_Programm/main.c"/>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
 </file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage/>
 </persistable>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_PWM_Servo/main.c">
-<persistable path="/Example_PWM_Servo/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="core_cm3.h" tooltip="Example_PWR_Standby_RTC/cmsis/core_cm3.h">
+<persistable path="/Example_PWR_Standby_RTC/cmsis/core_cm3.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="Example_PWM_Sound/stm_lib/src/stm32f10x_gpio.c">
-<persistable path="/Example_PWM_Sound/stm_lib/src/stm32f10x_gpio.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_exti.h" tooltip="Example_PWR_Stop/stm_lib/inc/stm32f10x_exti.h">
+<persistable path="/Example_PWR_Stop/stm_lib/inc/stm32f10x_exti.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="Example_PWM_Sound/stm_lib/inc/stm32f10x_gpio.h">
-<persistable path="/Example_PWM_Sound/stm_lib/inc/stm32f10x_gpio.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_pwr.c" tooltip="Example_PWR_Stop/stm_lib/src/stm32f10x_pwr.c">
+<persistable path="/Example_PWR_Stop/stm_lib/src/stm32f10x_pwr.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_PWM_Sound/main.c">
-<persistable path="/Example_PWM_Sound/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="Example_PWR_Stop/stm_lib/inc/stm32f10x_gpio.h">
+<persistable path="/Example_PWR_Stop/stm_lib/inc/stm32f10x_gpio.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_PWM_LED/main.c">
-<persistable path="/Example_PWM_LED/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.c" tooltip="ViraMaxi/mp3_lib.c">
+<persistable path="/ViraMaxi/mp3_lib.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_USART_DMA/main.c">
-<persistable path="/Example_USART_DMA/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="soundmenu.h" tooltip="ViraMaxi/soundmenu.h">
+<persistable path="/ViraMaxi/soundmenu.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x.h" tooltip="Example_ADCviaDMA/cmsis_boot/stm32f10x.h">
-<persistable path="/Example_ADCviaDMA/cmsis_boot/stm32f10x.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ST7920.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\ST7920.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/ST7920.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.c" tooltip="Example_ADC_Injected/stm_lib/src/stm32f10x_adc.c">
-<persistable path="/Example_ADC_Injected/stm_lib/src/stm32f10x_adc.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="picture_WG12864.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\picture_WG12864.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/picture_WG12864.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_ADC_Injected/main.c">
-<persistable path="/Example_ADC_Injected/main.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim3.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\tim3.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/tim3.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.h" tooltip="Example_ADC_watchdog/stm_lib/inc/stm32f10x_adc.h">
-<persistable path="/Example_ADC_watchdog/stm_lib/inc/stm32f10x_adc.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="fly.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\fly.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/fly.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_ADC_watchdog/main.c">
-<persistable path="/Example_ADC_watchdog/main.c"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\display.h">
+<persistable path="C:\CooCox\CoIDE\workspace\ViraMaxi\display.h" project="ViraMaxi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.c" tooltip="Example_ADC_Temperature/stm_lib/src/stm32f10x_adc.c">
-<persistable path="/Example_ADC_Temperature/stm_lib/src/stm32f10x_adc.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="forms.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\forms.h">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/forms.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.c" tooltip="Example_ADC_Temperature/stm_lib/src/stm32f10x_adc.c">
 <persistable path="/Example_ADC_Temperature/stm_lib/src/stm32f10x_adc.c"/>
