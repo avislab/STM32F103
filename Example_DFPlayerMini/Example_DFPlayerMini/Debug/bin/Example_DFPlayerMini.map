@@ -369,7 +369,7 @@ Linker script and memory map
 
                 0x20005000                _eram = 0x20005000
 
-.text           0x08000000      0xc50
+.text           0x08000000      0xc70
  *(.isr_vector)
  .isr_vector    0x08000000      0x10c ..\obj\startup_stm32f10x_md.o
                 0x08000000                g_pfnVectors
@@ -482,71 +482,71 @@ Linker script and memory map
  .text.MP3_send_cmd
                 0x08000700       0x48 ..\obj\mp3_lib.o
                 0x08000700                MP3_send_cmd
- .text.MP3_say  0x08000748       0xec ..\obj\mp3_lib.o
+ .text.MP3_say  0x08000748      0x108 ..\obj\mp3_lib.o
                 0x08000748                MP3_say
  .text.MP3_queue_processing
-                0x08000834       0x54 ..\obj\mp3_lib.o
-                0x08000834                MP3_queue_processing
+                0x08000850       0x58 ..\obj\mp3_lib.o
+                0x08000850                MP3_queue_processing
  .text.MP3_set_folder
-                0x08000888        0xc ..\obj\mp3_lib.o
-                0x08000888                MP3_set_folder
+                0x080008a8        0xc ..\obj\mp3_lib.o
+                0x080008a8                MP3_set_folder
  .text.RCC_DeInit
-                0x08000894       0x40 ..\obj\stm32f10x_rcc.o
-                0x08000894                RCC_DeInit
+                0x080008b4       0x40 ..\obj\stm32f10x_rcc.o
+                0x080008b4                RCC_DeInit
  .text.RCC_HSEConfig
-                0x080008d4       0x3c ..\obj\stm32f10x_rcc.o
-                0x080008d4                RCC_HSEConfig
+                0x080008f4       0x3c ..\obj\stm32f10x_rcc.o
+                0x080008f4                RCC_HSEConfig
  .text.RCC_SYSCLKConfig
-                0x08000910       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000910                RCC_SYSCLKConfig
+                0x08000930       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000930                RCC_SYSCLKConfig
  .text.RCC_GetSYSCLKSource
-                0x08000924       0x10 ..\obj\stm32f10x_rcc.o
-                0x08000924                RCC_GetSYSCLKSource
+                0x08000944       0x10 ..\obj\stm32f10x_rcc.o
+                0x08000944                RCC_GetSYSCLKSource
  .text.RCC_HCLKConfig
-                0x08000934       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000934                RCC_HCLKConfig
+                0x08000954       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000954                RCC_HCLKConfig
  .text.RCC_PCLK1Config
-                0x08000948       0x14 ..\obj\stm32f10x_rcc.o
-                0x08000948                RCC_PCLK1Config
+                0x08000968       0x14 ..\obj\stm32f10x_rcc.o
+                0x08000968                RCC_PCLK1Config
  .text.RCC_PCLK2Config
-                0x0800095c       0x14 ..\obj\stm32f10x_rcc.o
-                0x0800095c                RCC_PCLK2Config
+                0x0800097c       0x14 ..\obj\stm32f10x_rcc.o
+                0x0800097c                RCC_PCLK2Config
  .text.RCC_GetClocksFreq
-                0x08000970       0xb0 ..\obj\stm32f10x_rcc.o
-                0x08000970                RCC_GetClocksFreq
+                0x08000990       0xb0 ..\obj\stm32f10x_rcc.o
+                0x08000990                RCC_GetClocksFreq
  .text.RCC_APB2PeriphClockCmd
-                0x08000a20       0x1c ..\obj\stm32f10x_rcc.o
-                0x08000a20                RCC_APB2PeriphClockCmd
+                0x08000a40       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000a40                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x08000a3c       0x1c ..\obj\stm32f10x_rcc.o
-                0x08000a3c                RCC_APB1PeriphClockCmd
+                0x08000a5c       0x1c ..\obj\stm32f10x_rcc.o
+                0x08000a5c                RCC_APB1PeriphClockCmd
  .text.RCC_GetFlagStatus
-                0x08000a58       0x28 ..\obj\stm32f10x_rcc.o
-                0x08000a58                RCC_GetFlagStatus
+                0x08000a78       0x28 ..\obj\stm32f10x_rcc.o
+                0x08000a78                RCC_GetFlagStatus
  .text.RCC_WaitForHSEStartUp
-                0x08000a80       0x34 ..\obj\stm32f10x_rcc.o
-                0x08000a80                RCC_WaitForHSEStartUp
+                0x08000aa0       0x34 ..\obj\stm32f10x_rcc.o
+                0x08000aa0                RCC_WaitForHSEStartUp
  .text.USART_Init
-                0x08000ab4       0xb8 ..\obj\stm32f10x_usart.o
-                0x08000ab4                USART_Init
+                0x08000ad4       0xb8 ..\obj\stm32f10x_usart.o
+                0x08000ad4                USART_Init
  .text.USART_Cmd
-                0x08000b6c       0x1c ..\obj\stm32f10x_usart.o
-                0x08000b6c                USART_Cmd
+                0x08000b8c       0x1c ..\obj\stm32f10x_usart.o
+                0x08000b8c                USART_Cmd
  .text.USART_ITConfig
-                0x08000b88       0x38 ..\obj\stm32f10x_usart.o
-                0x08000b88                USART_ITConfig
+                0x08000ba8       0x38 ..\obj\stm32f10x_usart.o
+                0x08000ba8                USART_ITConfig
  .text.USART_SendData
-                0x08000bc0        0x8 ..\obj\stm32f10x_usart.o
-                0x08000bc0                USART_SendData
+                0x08000be0        0x8 ..\obj\stm32f10x_usart.o
+                0x08000be0                USART_SendData
  .text.USART_ReceiveData
-                0x08000bc8        0x8 ..\obj\stm32f10x_usart.o
-                0x08000bc8                USART_ReceiveData
+                0x08000be8        0x8 ..\obj\stm32f10x_usart.o
+                0x08000be8                USART_ReceiveData
  .text.USART_GetFlagStatus
-                0x08000bd0        0xc ..\obj\stm32f10x_usart.o
-                0x08000bd0                USART_GetFlagStatus
+                0x08000bf0        0xc ..\obj\stm32f10x_usart.o
+                0x08000bf0                USART_GetFlagStatus
  .text.NVIC_Init
-                0x08000bdc       0x64 ..\obj\misc.o
-                0x08000bdc                NVIC_Init
+                0x08000bfc       0x64 ..\obj\misc.o
+                0x08000bfc                NVIC_Init
  *(.init)
  *(.fini)
  *crtbegin.o(.ctors)
@@ -560,38 +560,38 @@ Linker script and memory map
  *(SORT(.dtors.*))
  *(.dtors)
  *(.rodata*)
- .rodata        0x08000c40       0x10 ..\obj\mp3_lib.o
+ .rodata        0x08000c60       0x10 ..\obj\mp3_lib.o
  *(.eh_fram e*)
 
-.glue_7         0x08000c50        0x0
- .glue_7        0x08000c50        0x0 linker stubs
+.glue_7         0x08000c70        0x0
+ .glue_7        0x08000c70        0x0 linker stubs
 
-.glue_7t        0x08000c50        0x0
- .glue_7t       0x08000c50        0x0 linker stubs
+.glue_7t        0x08000c70        0x0
+ .glue_7t       0x08000c70        0x0 linker stubs
 
-.vfp11_veneer   0x08000c50        0x0
- .vfp11_veneer  0x08000c50        0x0 linker stubs
+.vfp11_veneer   0x08000c70        0x0
+ .vfp11_veneer  0x08000c70        0x0 linker stubs
 
-.v4_bx          0x08000c50        0x0
- .v4_bx         0x08000c50        0x0 linker stubs
+.v4_bx          0x08000c70        0x0
+ .v4_bx         0x08000c70        0x0 linker stubs
 
-.iplt           0x08000c50        0x0
- .iplt          0x08000c50        0x0 ..\obj\stm32f10x_tim.o
+.iplt           0x08000c70        0x0
+ .iplt          0x08000c70        0x0 ..\obj\stm32f10x_tim.o
 
-.rel.dyn        0x08000c50        0x0
- .rel.iplt      0x08000c50        0x0 ..\obj\stm32f10x_tim.o
+.rel.dyn        0x08000c70        0x0
+ .rel.iplt      0x08000c70        0x0 ..\obj\stm32f10x_tim.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08000c50                __exidx_start = .
+                0x08000c70                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x08000c50                __exidx_end = .
-                0x08000c50                __etext = .
-                0x08000c50                _sidata = __etext
+                0x08000c70                __exidx_end = .
+                0x08000c70                __etext = .
+                0x08000c70                _sidata = __etext
 
-.data           0x20000000       0x2c load address 0x08000c50
+.data           0x20000000       0x2c load address 0x08000c70
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
@@ -621,10 +621,10 @@ Linker script and memory map
                 0x2000002c                __data_end__ = .
                 0x2000002c                _edata = __data_end__
 
-.igot.plt       0x2000002c        0x0 load address 0x08000c7c
+.igot.plt       0x2000002c        0x0 load address 0x08000c9c
  .igot.plt      0x2000002c        0x0 ..\obj\stm32f10x_tim.o
 
-.bss            0x2000002c       0x1c load address 0x08000c7c
+.bss            0x2000002c       0x1c load address 0x08000c9c
                 0x2000002c                . = ALIGN (0x4)
                 0x2000002c                __bss_start__ = .
                 0x2000002c                _sbss = __bss_start__
@@ -651,7 +651,7 @@ Linker script and memory map
  *(.heap*)
                 0x20000048                __HeapLimit = .
 
-.co_stack       0x20000048      0x400 load address 0x08000c98
+.co_stack       0x20000048      0x400 load address 0x08000cb8
                 0x20000048                . = ALIGN (0x8)
  *(.co_stack .co_stack.*)
  .co_stack      0x20000048      0x400 ..\obj\startup_stm32f10x_md.o
@@ -681,41 +681,41 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 END GROUP
 OUTPUT(Example_DFPlayerMini.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x5dc9
+.debug_info     0x00000000     0x5dea
  .debug_info    0x00000000     0x2257 ..\obj\stm32f10x_tim.o
  .debug_info    0x00002257      0x4c8 ..\obj\system_stm32f10x.o
  .debug_info    0x0000271f      0x114 ..\obj\startup_stm32f10x_md.o
  .debug_info    0x00002833      0x88f ..\obj\stm32f10x_gpio.o
  .debug_info    0x000030c2      0x2fa ..\obj\main.o
  .debug_info    0x000033bc      0x74b ..\obj\tim2_delay.o
- .debug_info    0x00003b07      0x96b ..\obj\mp3_lib.o
- .debug_info    0x00004472      0x8d7 ..\obj\stm32f10x_rcc.o
- .debug_info    0x00004d49      0xb24 ..\obj\stm32f10x_usart.o
- .debug_info    0x0000586d      0x55c ..\obj\misc.o
+ .debug_info    0x00003b07      0x98c ..\obj\mp3_lib.o
+ .debug_info    0x00004493      0x8d7 ..\obj\stm32f10x_rcc.o
+ .debug_info    0x00004d6a      0xb24 ..\obj\stm32f10x_usart.o
+ .debug_info    0x0000588e      0x55c ..\obj\misc.o
 
-.debug_abbrev   0x00000000     0x1062
+.debug_abbrev   0x00000000     0x107c
  .debug_abbrev  0x00000000      0x28c ..\obj\stm32f10x_tim.o
  .debug_abbrev  0x0000028c      0x170 ..\obj\system_stm32f10x.o
  .debug_abbrev  0x000003fc       0xd3 ..\obj\startup_stm32f10x_md.o
  .debug_abbrev  0x000004cf      0x1ed ..\obj\stm32f10x_gpio.o
  .debug_abbrev  0x000006bc      0x10b ..\obj\main.o
  .debug_abbrev  0x000007c7      0x173 ..\obj\tim2_delay.o
- .debug_abbrev  0x0000093a      0x22a ..\obj\mp3_lib.o
- .debug_abbrev  0x00000b64      0x1e2 ..\obj\stm32f10x_rcc.o
- .debug_abbrev  0x00000d46      0x1c6 ..\obj\stm32f10x_usart.o
- .debug_abbrev  0x00000f0c      0x156 ..\obj\misc.o
+ .debug_abbrev  0x0000093a      0x244 ..\obj\mp3_lib.o
+ .debug_abbrev  0x00000b7e      0x1e2 ..\obj\stm32f10x_rcc.o
+ .debug_abbrev  0x00000d60      0x1c6 ..\obj\stm32f10x_usart.o
+ .debug_abbrev  0x00000f26      0x156 ..\obj\misc.o
 
-.debug_loc      0x00000000     0x35a1
+.debug_loc      0x00000000     0x35b8
  .debug_loc     0x00000000     0x1cfe ..\obj\stm32f10x_tim.o
  .debug_loc     0x00001cfe       0xe8 ..\obj\system_stm32f10x.o
  .debug_loc     0x00001de6       0x2b ..\obj\startup_stm32f10x_md.o
  .debug_loc     0x00001e11      0x508 ..\obj\stm32f10x_gpio.o
  .debug_loc     0x00002319       0x1e ..\obj\main.o
  .debug_loc     0x00002337       0x42 ..\obj\tim2_delay.o
- .debug_loc     0x00002379      0x1a4 ..\obj\mp3_lib.o
- .debug_loc     0x0000251d      0x717 ..\obj\stm32f10x_rcc.o
- .debug_loc     0x00002c34      0x7e0 ..\obj\stm32f10x_usart.o
- .debug_loc     0x00003414      0x18d ..\obj\misc.o
+ .debug_loc     0x00002379      0x1bb ..\obj\mp3_lib.o
+ .debug_loc     0x00002534      0x717 ..\obj\stm32f10x_rcc.o
+ .debug_loc     0x00002c4b      0x7e0 ..\obj\stm32f10x_usart.o
+ .debug_loc     0x0000342b      0x18d ..\obj\misc.o
 
 .debug_aranges  0x00000000      0x6e8
  .debug_aranges
@@ -751,19 +751,19 @@ OUTPUT(Example_DFPlayerMini.elf elf32-littlearm)
  .debug_ranges  0x00000528       0xf0 ..\obj\stm32f10x_usart.o
  .debug_ranges  0x00000618       0x30 ..\obj\misc.o
 
-.debug_line     0x00000000     0x2417
+.debug_line     0x00000000     0x241f
  .debug_line    0x00000000      0xa40 ..\obj\stm32f10x_tim.o
  .debug_line    0x00000a40      0x1dd ..\obj\system_stm32f10x.o
  .debug_line    0x00000c1d       0xa2 ..\obj\startup_stm32f10x_md.o
  .debug_line    0x00000cbf      0x3bd ..\obj\stm32f10x_gpio.o
  .debug_line    0x0000107c      0x24f ..\obj\main.o
  .debug_line    0x000012cb      0x281 ..\obj\tim2_delay.o
- .debug_line    0x0000154c      0x34b ..\obj\mp3_lib.o
- .debug_line    0x00001897      0x4a5 ..\obj\stm32f10x_rcc.o
- .debug_line    0x00001d3c      0x485 ..\obj\stm32f10x_usart.o
- .debug_line    0x000021c1      0x256 ..\obj\misc.o
+ .debug_line    0x0000154c      0x353 ..\obj\mp3_lib.o
+ .debug_line    0x0000189f      0x4a5 ..\obj\stm32f10x_rcc.o
+ .debug_line    0x00001d44      0x485 ..\obj\stm32f10x_usart.o
+ .debug_line    0x000021c9      0x256 ..\obj\misc.o
 
-.debug_str      0x00000000     0x220d
+.debug_str      0x00000000     0x2216
  .debug_str     0x00000000      0xd5a ..\obj\stm32f10x_tim.o
                                 0xe1d (size before relaxing)
  .debug_str     0x00000d5a      0x17c ..\obj\system_stm32f10x.o
@@ -776,13 +776,13 @@ OUTPUT(Example_DFPlayerMini.elf elf32-littlearm)
                                 0x28b (size before relaxing)
  .debug_str     0x00001467      0x3ef ..\obj\tim2_delay.o
                                 0x772 (size before relaxing)
- .debug_str     0x00001856      0x20b ..\obj\mp3_lib.o
-                                0x8c5 (size before relaxing)
- .debug_str     0x00001a61      0x2f9 ..\obj\stm32f10x_rcc.o
+ .debug_str     0x00001856      0x214 ..\obj\mp3_lib.o
+                                0x8d5 (size before relaxing)
+ .debug_str     0x00001a6a      0x2f9 ..\obj\stm32f10x_rcc.o
                                 0x62c (size before relaxing)
- .debug_str     0x00001d5a      0x35a ..\obj\stm32f10x_usart.o
+ .debug_str     0x00001d63      0x35a ..\obj\stm32f10x_usart.o
                                 0x6e2 (size before relaxing)
- .debug_str     0x000020b4      0x159 ..\obj\misc.o
+ .debug_str     0x000020bd      0x159 ..\obj\misc.o
                                 0x3d0 (size before relaxing)
 
 .comment        0x00000000       0x6e

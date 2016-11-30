@@ -24,7 +24,7 @@ volatile char mp3_RX_Buf[mp3_RX_Buf_SIZE] = {'\0'};
 volatile uint8_t mp3_folder = 1;
 volatile uint8_t mp3_cmd_buf[10] = {0x7E, 0xFF, 0x06, 0x00, 0x01, 0x0, 0x0, 0x00, 0x00, 0xEF};
 volatile uint8_t mp3_queue[MP3_QUEUE_LEN] = {MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE, MP3_NO_VALUE};
-volatile uint8_t mp3_queue_id = 0;
+volatile int8_t mp3_queue_id = 0;
 volatile uint8_t mp3_flag = 0;
 
 /* UART3 Initialization for DFPlayer using
@@ -190,21 +190,22 @@ void MP3_say(uint8_t prefix, int value, uint8_t suffix) {
 	}
 
 	// Fill MP3 Queue
-	mp3_queue_id = 0;
+	mp3_queue_id = -1;
 
 	// Prefix
 	if (prefix != MP3_NO_VALUE) {
-		mp3_queue[mp3_queue_id] = prefix;
 		mp3_queue_id++;
+		mp3_queue[mp3_queue_id] = prefix;
 	}
 
 	if (value < 0) {
 		value = abs(value);
-		mp3_queue[mp3_queue_id] = 250; // Minus
 		mp3_queue_id++;
+		mp3_queue[mp3_queue_id] = 250; // Minus
 	}
 	else {
 		if (value == 0) {
+			mp3_queue_id++;
 			mp3_queue[mp3_queue_id] = 200;
 		}
 	}
@@ -215,13 +216,16 @@ void MP3_say(uint8_t prefix, int value, uint8_t suffix) {
 			value = value - num * POW[i];
 
 			if (num > 0) {
-				mp3_queue[mp3_queue_id] = (i+1)*10 + num;
 				mp3_queue_id++;
+				mp3_queue[mp3_queue_id] = (i+1)*10 + num;
+				//mp3_queue_id++;
 			}
 		}
 		else {
 			if (value > 0) {
+				mp3_queue_id++;
 				mp3_queue[mp3_queue_id] = value;
+				value = 0;
 			}
 		}
 	}
@@ -243,10 +247,10 @@ void MP3_queue_processing(void) {
 	// MP3 QUEUE Processing
 	if ( (mp3_queue[mp3_queue_id] != MP3_NO_VALUE) & (mp3_queue_id < MP3_QUEUE_LEN) ) {
 		if (mp3_flag == 1) {
-			MP3_clear_RXBuffer();
-			mp3_flag = 0;
 			MP3_send_cmd(MP3_PLAY_FOLDER_FILE, mp3_folder, mp3_queue[mp3_queue_id]);
 			mp3_queue_id++;
+			MP3_clear_RXBuffer();
+			mp3_flag = 0;
 		}
 	}
 }

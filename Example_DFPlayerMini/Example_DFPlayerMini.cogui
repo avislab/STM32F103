@@ -23,15 +23,15 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_DFPlayerMini/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2496" selectionTopPixel="1168"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2300" selectionTopPixel="1202"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.c" partName="mp3_lib.c" path="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/mp3_lib.c" title="mp3_lib.c" tooltip="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/mp3_lib.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_DFPlayerMini/mp3_lib.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1" selectionTopPixel="2940"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6294" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.h" partName="mp3_lib.h" path="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/mp3_lib.h" title="mp3_lib.h" tooltip="C:/CooCox/CoIDE/workspace/Example_DFPlayerMini/mp3_lib.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_DFPlayerMini/mp3_lib.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2854" selectionTopPixel="692"/>
+<editorState selectionHorizontalPixel="0" selectionLength="12" selectionOffset="2465" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -242,47 +242,14 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/tim2_delay.c"/>
-<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\CooCox\CoIDE\workspace\Example_DFPlayerMini\tim2_delay.h" project="Example_DFPlayerMini"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/stm_lib/inc/stm32f10x_rcc.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/stm_lib/src/stm32f10x_rcc.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_DFPlayerMini/mp3_lib.h"/>
 </editors>
-<item historyLabel="tim2_delay.h" index="4">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="stm32f10x_rcc.h" index="5">
-<position info="not_deleted" x="23222" y="21"/>
-</item>
-<item historyLabel="tim2_delay.h" index="4">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="stm32f10x_rcc.c" index="6">
-<position info="not_deleted" x="37882" y="22"/>
-</item>
-<item historyLabel="tim2_delay.h" index="4">
-<position info="not_deleted" x="147" y="0"/>
-</item>
-<item historyLabel="tim2_delay.c" index="3">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="mp3_lib.c" index="1">
-<position info="not_deleted" x="710" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="mp3_lib.h" index="2">
-<position info="not_deleted" x="2465" y="12"/>
-</item>
-<item historyLabel="mp3_lib.c" index="1">
-<position info="not_deleted" x="710" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
 <item historyLabel="mp3_lib.c" index="1">
 <position info="not_deleted" x="710" y="0"/>
 </item>
@@ -370,35 +337,68 @@
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1795" y="0"/>
 </item>
-<item historyLabel="mp3_lib.h" index="7">
+<item historyLabel="mp3_lib.h" index="3">
 <position info="not_deleted" x="2854" y="0"/>
 </item>
-<item historyLabel="mp3_lib.c" index="8">
+<item historyLabel="mp3_lib.c" index="4">
 <position info="not_deleted" x="1" y="0"/>
 </item>
-<item historyLabel="mp3_lib.h" index="7">
+<item historyLabel="mp3_lib.h" index="3">
 <position info="not_deleted" x="2854" y="0"/>
 </item>
 <item historyLabel="main.c" index="0">
 <position info="not_deleted" x="1502" y="0"/>
 </item>
-<item historyLabel="mp3_lib.c" index="8">
+<item historyLabel="mp3_lib.c" index="4">
 <position info="not_deleted" x="1" y="0"/>
 </item>
-<item historyLabel="mp3_lib.h" index="7">
+<item historyLabel="mp3_lib.h" index="3">
 <position info="not_deleted" x="2854" y="0"/>
 </item>
-<item historyLabel="mp3_lib.c" index="8">
+<item historyLabel="mp3_lib.c" index="4">
 <position info="not_deleted" x="1" y="0"/>
 </item>
-<item historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="2348" y="0"/>
 </item>
-<item historyLabel="mp3_lib.c" index="8">
+<item historyLabel="mp3_lib.c" index="4">
 <position info="not_deleted" x="1" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="9">
+<item historyLabel="main.c" index="5">
 <position info="not_deleted" x="2348" y="0"/>
+</item>
+<item historyLabel="mp3_lib.h" index="6">
+<position info="not_deleted" x="2854" y="0"/>
+</item>
+<item historyLabel="mp3_lib.h" index="6">
+<position info="not_deleted" x="2465" y="12"/>
+</item>
+<item historyLabel="mp3_lib.c" index="7">
+<position info="not_deleted" x="6115" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="2205" y="0"/>
+</item>
+<item historyLabel="mp3_lib.c" index="7">
+<position info="not_deleted" x="6294" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="1903" y="0"/>
+</item>
+<item historyLabel="mp3_lib.c" index="7">
+<position info="not_deleted" x="6294" y="0"/>
+</item>
+<item historyLabel="main.c" index="5">
+<position info="not_deleted" x="1903" y="0"/>
+</item>
+<item historyLabel="mp3_lib.c" index="8">
+<position info="not_deleted" x="6294" y="0"/>
+</item>
+<item historyLabel="mp3_lib.h" index="9">
+<position info="not_deleted" x="2465" y="12"/>
+</item>
+<item active="true" historyLabel="main.c" index="5">
+<position info="not_deleted" x="2252" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -407,47 +407,48 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vario.h" tooltip="ViraMaxi/vario.h">
-<persistable path="/ViraMaxi/vario.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.c" tooltip="Example_DFPlayerMini/mp3_lib.c">
+<persistable path="/Example_DFPlayerMini/mp3_lib.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\mp3_lib.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/mp3_lib.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ws2812b_conf.h" tooltip="Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/ws2812b_conf.h">
+<persistable path="/Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/ws2812b_conf.h"/>
 </file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display_nokia.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\display_nokia.h">
-<persistable path="C:\CooCox\CoIDE\workspace\ViraMaxi\display_nokia.h" project="ViraMaxi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ws2812b.c" tooltip="Example_WS2812B/stm32f10x-ws2812b-lib-master/src/ws2812b.c">
+<persistable path="/Example_WS2812B/stm32f10x-ws2812b-lib-master/src/ws2812b.c"/>
 </file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim3.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\tim3.h">
-<persistable path="C:\CooCox\CoIDE\workspace\ViraMaxi\tim3.h" project="ViraMaxi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bitmap.h" tooltip="Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/bitmap.h">
+<persistable path="/Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/bitmap.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_lib.c" tooltip="ViraMaxi/mp3_lib.c">
-<persistable path="/ViraMaxi/mp3_lib.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ws2812b.h" tooltip="Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/ws2812b.h">
+<persistable path="/Example_WS2812B/stm32f10x-ws2812b-lib-master/inc/ws2812b.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="voice.h" tooltip="ViraMaxi/voice.h">
-<persistable path="/ViraMaxi/voice.h"/>
+<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
+<persistable>&#x0A;<subPage/>
+</persistable>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="n3310.c" tooltip="ViraMaxi/n3310.c">
-<persistable path="/ViraMaxi/n3310.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_WS2812B/main.c">
+<persistable path="/Example_WS2812B/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="n3310.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\n3310.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/ViraMaxi/n3310.h"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sysclk.h" tooltip="C:\CooCox\CoIDE\workspace\BLDC\sysclk.h">
+<persistable path="C:\CooCox\CoIDE\workspace\BLDC\sysclk.h" project="BLDC"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_adc.h" tooltip="Example_I2C_Slave/stm_lib/inc/stm32f10x_adc.h">
-<persistable path="/Example_I2C_Slave/stm_lib/inc/stm32f10x_adc.h"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="adc_dma.h" tooltip="C:\CooCox\CoIDE\workspace\BLDC\adc_dma.h">
+<persistable path="C:\CooCox\CoIDE\workspace\BLDC\adc_dma.h" project="BLDC"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_slave.c" tooltip="Example_I2C_Slave/i2c_slave.c">
-<persistable path="/Example_I2C_Slave/i2c_slave.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bldc.c" tooltip="BLDC/bldc.c">
+<persistable path="/BLDC/bldc.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="i2c_slave.h" tooltip="C:\CooCox\CoIDE\workspace\Example_I2C_Slave\i2c_slave.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_I2C_Slave/i2c_slave.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bldc.h" tooltip="BLDC/bldc.h">
+<persistable path="/BLDC/bldc.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_I2_Slave/main.c">
-<persistable path="/Example_I2_Slave/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_tim.c" tooltip="BLDC/stm_lib/src/stm32f10x_tim.c">
+<persistable path="/BLDC/stm_lib/src/stm32f10x_tim.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\ms5611.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_tim.h" tooltip="BLDC/stm_lib/inc/stm32f10x_tim.h">
+<persistable path="/BLDC/stm_lib/inc/stm32f10x_tim.h"/>
 </file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h">
-<persistable path="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h" project="Example_MS5611"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="BLDC/stm_lib/inc/stm32f10x_gpio.h">
+<persistable path="/BLDC/stm_lib/inc/stm32f10x_gpio.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.c" tooltip="MS5611vsBMP280/ms5611.c">
 <persistable path="/MS5611vsBMP280/ms5611.c"/>

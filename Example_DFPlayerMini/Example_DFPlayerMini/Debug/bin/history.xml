@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_DFPlayerMini.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_DFPlayerMini -TC:\CooCox\CoIDE\configuration\ProgramData\Example_DFPlayerMini/arm-gcc-link.ld -g">
-      <target file="Example_DFPlayerMini.elf" lastModified="157ad6ea8c6">
-         <source file="..\obj\stm32f10x_tim.o" lastModified="157ad6e9fec"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="157ad6ea03b"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="157ad6ea163"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="157ad6ea21f"/>
-         <source file="..\obj\main.o" lastModified="157ad6ea26d"/>
-         <source file="..\obj\tim2_delay.o" lastModified="157ad6ea2bb"/>
-         <source file="..\obj\mp3_lib.o" lastModified="157ad6ea348"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="157ad6ea3d4"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="157ad6ea471"/>
-         <source file="..\obj\syscalls.o" lastModified="157ad6ea4bf"/>
-         <source file="..\obj\misc.o" lastModified="157ad6ea50d"/>
+      <target file="Example_DFPlayerMini.elf" lastModified="158b58b0cd7">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="158b58afa0b"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="158b58afbc0"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="158b58afd56"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="158b58afe22"/>
+         <source file="..\obj\main.o" lastModified="158b58afe70"/>
+         <source file="..\obj\tim2_delay.o" lastModified="158b58afecd"/>
+         <source file="..\obj\mp3_lib.o" lastModified="158b58b01cb"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="158b58b0258"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="158b58b0361"/>
+         <source file="..\obj\syscalls.o" lastModified="158b58b05c3"/>
+         <source file="..\obj\misc.o" lastModified="158b58b0620"/>
       </target>
    </processor>
 </history>
