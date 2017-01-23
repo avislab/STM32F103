@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O2 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_Bootloader\STM32_USB-FS-Device_Driver -I..\..\..\workspace\Example_Bootloader\stm_lib\inc -I..\..\..\workspace -I..\..\..\workspace\Example_Bootloader\cmsis -I..\..\..\workspace\Example_Bootloader\stm_lib -I..\..\..\workspace\Example_Bootloader -I..\..\..\workspace\Example_Bootloader\cmsis_boot -I..\..\..\workspace\Example_Bootloader\STM32_USB-FS-Device_Driver\inc -I..\..\..\workspace\Example_Bootloader\USB\inc -I..\..\..\workspace\Example_Bootloader\USB">
+      <target file="hw_config.o" lastModified="159ca5a7d62">
+         <source file="..\..\..\USB\src\hw_config.c" lastModified="159b5fd4431"/>
+      </target>
+      <target file="mass_mal.o" lastModified="159ca5a7fc3">
+         <source file="..\..\..\USB\src\mass_mal.c" lastModified="159ac9ae76e"/>
+      </target>
+      <target file="usb_sil.o" lastModified="159ca5a81d7">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_sil.c" lastModified="129a2433380"/>
+      </target>
+      <target file="usb_int.o" lastModified="159ca5a79c8">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_int.c" lastModified="129a2433380"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="159ca5a811b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="159ac7e473e"/>
+      </target>
+      <target file="stm32f10x_it.o" lastModified="159ca5a839c">
+         <source file="..\..\..\stm32f10x_it.c" lastModified="159b602be79"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="159ca5a7cf5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="159ac8a0960"/>
+      </target>
+      <target file="misc.o" lastModified="159ca5a8438">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="159ac7e813a"/>
+      </target>
+      <target file="usb_mem.o" lastModified="159ca5a84e4">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_mem.c" lastModified="129a2433380"/>
+      </target>
+      <target file="usb_endp.o" lastModified="159ca5a83da">
+         <source file="..\..\..\USB\src\usb_endp.c" lastModified="159b17c12c9"/>
+      </target>
+      <target file="usb_istr.o" lastModified="159ca5a8542">
+         <source file="..\..\..\USB\src\usb_istr.c" lastModified="12c2149de12"/>
+      </target>
+      <target file="memory.o" lastModified="159ca5a7ef8">
+         <source file="..\..\..\USB\src\memory.c" lastModified="159b5fe7d0f"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="159ca5a7c97">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159ac7e478d"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="159ca5a833e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="159ac7e576b"/>
+      </target>
+      <target file="usb_regs.o" lastModified="159ca5a7bac">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_regs.c" lastModified="129a2433380"/>
+      </target>
+      <target file="usb_pwr.o" lastModified="159ca5a7f66">
+         <source file="..\..\..\USB\src\usb_pwr.c" lastModified="12c2146b914"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="159ca5a8188">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="159ac89eacc"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="159ca5a7dfe">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="159ac7eb7bb"/>
+      </target>
+      <target file="usb_core.o" lastModified="159ca5a794b">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_core.c" lastModified="12be2b1f6a0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="159ca5a7a26">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159ac7e479c"/>
+      </target>
+      <target file="usb_scsi.o" lastModified="159ca5a7c58">
+         <source file="..\..\..\USB\src\usb_scsi.c" lastModified="12c2175cd82"/>
+      </target>
+      <target file="usb_desc.o" lastModified="159ca5a7a93">
+         <source file="..\..\..\USB\src\usb_desc.c" lastModified="12c216100ad"/>
+      </target>
+      <target file="syscalls.o" lastModified="159ca5a8273">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="159ac92ce40"/>
+      </target>
+      <target file="usb_init.o" lastModified="159ca5a8011">
+         <source file="..\..\..\STM32_USB-FS-Device_Driver\src\usb_init.c" lastModified="129a2433380"/>
+      </target>
+      <target file="usb_prop.o" lastModified="159ca5a7e8b">
+         <source file="..\..\..\USB\src\usb_prop.c" lastModified="159b5fe2181"/>
+      </target>
+      <target file="usb_bot.o" lastModified="159ca5a7832">
+         <source file="..\..\..\USB\src\usb_bot.c" lastModified="12c2140a00b"/>
+      </target>
+      <target file="scsi_data.o" lastModified="159ca5a8215">
+         <source file="..\..\..\USB\src\scsi_data.c" lastModified="159ca56b8d8"/>
+      </target>
+      <target file="main.o" lastModified="159ca5a806f">
+         <source file="..\..\..\main.c" lastModified="159ca5a328e"/>
+      </target>
+   </processor>
+</history>

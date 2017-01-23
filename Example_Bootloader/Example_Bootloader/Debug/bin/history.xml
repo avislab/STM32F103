@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_Bootloader.map -O2 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_Bootloader -TC:\CooCox\CoIDE\configuration\ProgramData\Example_Bootloader/arm-gcc-link.ld -g">
+      <target file="Example_Bootloader.elf" lastModified="159ca5a8adf">
+         <source file="..\obj\usb_bot.o" lastModified="159ca5a7832"/>
+         <source file="..\obj\usb_core.o" lastModified="159ca5a794b"/>
+         <source file="..\obj\usb_int.o" lastModified="159ca5a79c8"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="159ca5a7a26"/>
+         <source file="..\obj\usb_desc.o" lastModified="159ca5a7a93"/>
+         <source file="..\obj\usb_regs.o" lastModified="159ca5a7bac"/>
+         <source file="..\obj\usb_scsi.o" lastModified="159ca5a7c58"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="159ca5a7c97"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="159ca5a7cf5"/>
+         <source file="..\obj\hw_config.o" lastModified="159ca5a7d62"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="159ca5a7dfe"/>
+         <source file="..\obj\usb_prop.o" lastModified="159ca5a7e8b"/>
+         <source file="..\obj\memory.o" lastModified="159ca5a7ef8"/>
+         <source file="..\obj\usb_pwr.o" lastModified="159ca5a7f66"/>
+         <source file="..\obj\mass_mal.o" lastModified="159ca5a7fc3"/>
+         <source file="..\obj\usb_init.o" lastModified="159ca5a8011"/>
+         <source file="..\obj\main.o" lastModified="159ca5a806f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="159ca5a811b"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="159ca5a8188"/>
+         <source file="..\obj\usb_sil.o" lastModified="159ca5a81d7"/>
+         <source file="..\obj\scsi_data.o" lastModified="159ca5a8215"/>
+         <source file="..\obj\syscalls.o" lastModified="159ca5a8273"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="159ca5a833e"/>
+         <source file="..\obj\stm32f10x_it.o" lastModified="159ca5a839c"/>
+         <source file="..\obj\usb_endp.o" lastModified="159ca5a83da"/>
+         <source file="..\obj\misc.o" lastModified="159ca5a8438"/>
+         <source file="..\obj\usb_mem.o" lastModified="159ca5a84e4"/>
+         <source file="..\obj\usb_istr.o" lastModified="159ca5a8542"/>
+      </target>
+   </processor>
+</history>
