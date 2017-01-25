@@ -27,7 +27,7 @@ int main(void)
 {
 	GPIO_InitTypeDef  GPIO_InitStructure;
 
-	/* Initialize Button input PB0 */
+	/* Initialize Button input PB */
 	// Enable PORTB Clock
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 	/* Configure the GPIO_BUTTON pin */
