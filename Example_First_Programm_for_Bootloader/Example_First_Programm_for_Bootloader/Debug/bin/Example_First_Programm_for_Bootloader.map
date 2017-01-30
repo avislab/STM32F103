@@ -325,7 +325,7 @@ LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-
 LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libg.a
 LOAD c:/program files/gnu tools arm embedded/5.3 2016q1/bin/../lib/gcc/arm-none-eabi/5.3.1/../../../../arm-none-eabi/lib/armv7-m\libc.a
 END GROUP
-OUTPUT(Example_First_Programm_for_Booloader.elf elf32-littlearm)
+OUTPUT(Example_First_Programm_for_Bootloader.elf elf32-littlearm)
 
 .debug_info     0x00000000     0x1ca9
  .debug_info    0x00000000      0x49c ..\obj\system_stm32f10x.o

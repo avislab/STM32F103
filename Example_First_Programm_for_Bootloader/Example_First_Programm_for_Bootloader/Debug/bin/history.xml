@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_First_Programm_for_Bootloader.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Example_First_Programm_for_Bootloader -TC:\CooCox\CoIDE\configuration\ProgramData\Example_First_Programm_for_Bootloader/arm-gcc-link.ld -g">
+      <target file="Example_First_Programm_for_Bootloader.elf" lastModified="159ee7a6379">
+         <source file="..\obj\system_stm32f10x.o" lastModified="159ee7a5d2f"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="159ee7a5d8d"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="159ee7a5e0a"/>
+         <source file="..\obj\main.o" lastModified="159ee7a5e77"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="159ee7a5ee5"/>
+         <source file="..\obj\misc.o" lastModified="159ee7a5f62"/>
+      </target>
+   </processor>
+</history>
