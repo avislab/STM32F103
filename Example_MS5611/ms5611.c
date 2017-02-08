@@ -144,7 +144,7 @@ void MS5611_Convert(long* temperature, long* pressure) {
 	D2 = ms5611ReadLong(0x00);
 
 	dT = D2 - (ms5611_C5 << 8);
-	TEMP = 2000 + ((dT * ms5611_C6) >> 23);
+	TEMP = 2000 + (((long long)dT * (long long)ms5611_C6) >> 23);
 	OFF = ((long long)ms5611_C2 << 16) + (((long long)ms5611_C4 * (long long)dT) >> 7);
 	SENS = ((long long)ms5611_C1 << 15 ) + (((long long)ms5611_C3 * (long long)dT ) >> 8);
 

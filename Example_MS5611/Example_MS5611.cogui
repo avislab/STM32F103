@@ -17,22 +17,17 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
-</input>
-</editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/Example_MS5611/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/Example_MS5611/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_MS5611/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8411" selectionTopPixel="4058"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.c" partName="ms5611.c" path="C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.c" title="ms5611.c" tooltip="C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_MS5611/ms5611.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3503" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3763" selectionTopPixel="2130"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.h" partName="ms5611.h" title="ms5611.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\ms5611.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.h"/>
@@ -246,7 +241,6 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_MS5611/ms5611.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_MS5611/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_MS5611/main.c"/>
 <editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
 <org.coocox.welcome.ui.WelcomePage/>
 </editor>
@@ -275,142 +269,143 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_MS5611/ms5611.c"/>
 <editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h" project="Example_MS5611"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_MS5611/ms5611.c"/>
 </editors>
 <item historyLabel="ms5611.c" index="0">
 <position info="not_deleted" x="4968" y="0"/>
 </item>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="903" y="0"/>
-</item>
-<item historyLabel="ms5611.c" index="0">
-<position info="not_deleted" x="4968" y="0"/>
-</item>
-<item historyLabel="main.c" index="2">
 <position info="not_deleted" x="612" y="0"/>
 </item>
 <item historyLabel="ms5611.c" index="0">
 <position info="not_deleted" x="4968" y="0"/>
 </item>
-<item historyLabel="main.c" index="2">
-<position info="not_deleted" x="612" y="0"/>
-</item>
-<item historyLabel="ms5611.c" index="0">
-<position info="not_deleted" x="4968" y="0"/>
-</item>
-<item historyLabel="welcome" index="3"/>
-<item historyLabel="Repository" index="4"/>
-<item historyLabel="main.c" index="5"/>
-<item historyLabel="ms5611.h" index="6"/>
-<item historyLabel="ms5611.c" index="7">
+<item historyLabel="welcome" index="2"/>
+<item historyLabel="Repository" index="3"/>
+<item historyLabel="main.c" index="4"/>
+<item historyLabel="ms5611.h" index="5"/>
+<item historyLabel="ms5611.c" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="8">
+<item historyLabel="ms5611.h" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WG12864A.c" index="9">
+<item historyLabel="WG12864A.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="9">
 <position info="not_deleted" x="517" y="0"/>
 </item>
+<item historyLabel="welcome" index="10"/>
 <item historyLabel="welcome" index="11"/>
 <item historyLabel="welcome" index="12"/>
-<item historyLabel="welcome" index="13"/>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="296" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="15">
+<item historyLabel="ms5611.h" index="14">
 <position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="16">
+<item historyLabel="ms5611.c" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="15">
+<item historyLabel="ms5611.h" index="14">
 <position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="16">
+<item historyLabel="ms5611.c" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="15">
+<item historyLabel="ms5611.h" index="14">
 <position info="not_deleted" x="160" y="0"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position/>
 </item>
-<item historyLabel="ms5611.c" index="16">
+<item historyLabel="ms5611.c" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position/>
 </item>
-<item historyLabel="ms5611.c" index="16">
+<item historyLabel="ms5611.c" index="15">
 <position info="not_deleted" x="4021" y="14"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="tim2_delay.h" index="17">
+<item historyLabel="tim2_delay.h" index="16">
 <position info="not_deleted" x="63" y="9"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="270" y="0"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="8210" y="0"/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="8195" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="3764" y="14"/>
 </item>
-<item historyLabel="tim2_delay.h" index="19">
+<item historyLabel="tim2_delay.h" index="18">
 <position info="not_deleted" x="63" y="9"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="396" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position/>
 </item>
-<item historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="7443" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="396" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="96" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="3971" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="84" y="10"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="4152" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="76" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="3503" y="0"/>
 </item>
-<item historyLabel="ms5611.h" index="20">
+<item historyLabel="ms5611.h" index="19">
 <position info="not_deleted" x="76" y="0"/>
 </item>
-<item historyLabel="ms5611.c" index="18">
+<item historyLabel="ms5611.c" index="17">
 <position info="not_deleted" x="3503" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="14">
+<item historyLabel="main.c" index="13">
 <position info="not_deleted" x="7443" y="0"/>
+</item>
+<item historyLabel="ms5611.c" index="20">
+<position info="not_deleted" x="4258" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position info="not_deleted" x="8411" y="0"/>
+</item>
+<item historyLabel="ms5611.c" index="20">
+<position info="not_deleted" x="3763" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="13">
+<position info="not_deleted" x="8411" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -419,47 +414,47 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\ms5611.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.c" tooltip="ViraMaxi/ms5611.c">
+<persistable path="/ViraMaxi/ms5611.c"/>
 </file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h">
-<persistable path="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h" project="Example_MS5611"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="sysclk.h" tooltip="C:\CooCox\CoIDE\workspace\BLDC\sysclk.h">
+<persistable path="C:\CooCox\CoIDE\workspace\BLDC\sysclk.h" project="BLDC"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.c" tooltip="Example_MS5611/ms5611.c">
-<persistable path="/Example_MS5611/ms5611.c"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="PMSM.coproj" tooltip="C:\CooCox\CoIDE\workspace\PMSM\PMSM.coproj">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/PMSM/PMSM.coproj"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_MS5611/main.c">
-<persistable path="/Example_MS5611/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_First_Programm_for_Booloader/main.c">
+<persistable path="/Example_First_Programm_for_Booloader/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp280.h" tooltip="C:\CooCox\CoIDE\workspace\Example_I2C_Master\bmp280.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_I2C_Master/bmp280.h"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="Vira_Bootloader.coproj" tooltip="C:\CooCox\CoIDE\workspace\Vira_Bootloader\Vira_Bootloader.coproj">
+<persistable uri="file:/C:/CooCox/CoIDE/workspace/Vira_Bootloader/Vira_Bootloader.coproj"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp280.c" tooltip="Example_I2C_Master/bmp280.c">
-<persistable path="/Example_I2C_Master/bmp280.c"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="display.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\display.h">
+<persistable path="C:\CooCox\CoIDE\workspace\ViraMaxi\display.h" project="ViraMaxi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usart_dma.h" tooltip="Example_I2C_Master/usart_dma.h">
-<persistable path="/Example_I2C_Master/usart_dma.h"/>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="openvario.h" tooltip="C:\CooCox\CoIDE\workspace\ViraMaxi\openvario.h">
+<persistable path="C:\CooCox\CoIDE\workspace\ViraMaxi\openvario.h" project="ViraMaxi"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" tooltip="c:\program files\gnu tools arm embedded\5.3 2016q1\arm-none-eabi\include\string.h">
-<persistable uri="file:/c:/program%20files/gnu%20tools%20arm%20embedded/5.3%202016q1/arm-none-eabi/include/string.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="scsi_data.c" tooltip="Example_Bootloader/USB/src/scsi_data.c">
+<persistable path="/Example_Bootloader/USB/src/scsi_data.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\ms5611.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_MS5611/ms5611.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="Example_USB_Mass_Storage/stm_lib/src/stm32f10x_gpio.c">
+<persistable path="/Example_USB_Mass_Storage/stm_lib/src/stm32f10x_gpio.c"/>
 </file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.h" tooltip="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h">
-<persistable path="C:\CooCox\CoIDE\workspace\Example_MS5611\tim2_delay.h" project="Example_MS5611"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="Example_USB_Mass_Storage/stm_lib/inc/stm32f10x_gpio.h">
+<persistable path="/Example_USB_Mass_Storage/stm_lib/inc/stm32f10x_gpio.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ms5611.c" tooltip="Example_MS5611/ms5611.c">
-<persistable path="/Example_MS5611/ms5611.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mass_mal.h" tooltip="Example_USB_Mass_Storage/USB/inc/mass_mal.h">
+<persistable path="/Example_USB_Mass_Storage/USB/inc/mass_mal.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="Example_MS5611/main.c">
-<persistable path="/Example_MS5611/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="usb_prop.c" tooltip="Example_USB_Mass_Storage/USB/src/usb_prop.c">
+<persistable path="/Example_USB_Mass_Storage/USB/src/usb_prop.c"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp280.h" tooltip="C:\CooCox\CoIDE\workspace\Example_I2C_Master\bmp280.h">
-<persistable uri="file:/C:/CooCox/CoIDE/workspace/Example_I2C_Master/bmp280.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="memory.c" tooltip="Example_USB_Mass_Storage/USB/src/memory.c">
+<persistable path="/Example_USB_Mass_Storage/USB/src/memory.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bmp280.c" tooltip="Example_I2C_Master/bmp280.c">
-<persistable path="/Example_I2C_Master/bmp280.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_it.c" tooltip="Example_USB_Mass_Storage/stm32f10x_it.c">
+<persistable path="/Example_USB_Mass_Storage/stm32f10x_it.c"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="string.h" tooltip="c:\program files\gnu tools arm embedded\5.3 2016q1\arm-none-eabi\include\string.h">
 <persistable uri="file:/c:/program%20files/gnu%20tools%20arm%20embedded/5.3%202016q1/arm-none-eabi/include/string.h"/>
