@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=Example_PMSM.map -O1 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Example_PMSM -TC:\CooCox\CoIDE\configuration\ProgramData\Example_PMSM/arm-gcc-link.ld -g">
+      <target file="Example_PMSM.elf" lastModified="15a9355a9ac">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15a9355a026"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15a9355a084"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15a9355a0d2"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15a9355a18d"/>
+         <source file="..\obj\main.o" lastModified="15a9355a1fb"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15a9355a297"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="15a9355a2f5"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15a9355a3ef"/>
+         <source file="..\obj\syscalls.o" lastModified="15a9355a43d"/>
+         <source file="..\obj\pmsm.o" lastModified="15a9355a4f8"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15a9355a566"/>
+         <source file="..\obj\misc.o" lastModified="15a9355a5d3"/>
+      </target>
+   </processor>
+</history>
