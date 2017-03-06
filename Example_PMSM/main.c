@@ -50,12 +50,7 @@ int main(void)
    			PMSM_SetPWM(PMSM_ADCToPWM(ADCBuffer[0]));
     	}
     	else {
-    		if (PMSM_MotorIsRun() == 1) {
-    			if (ADCBuffer[0] < PMSM_ADC_STOP) {
-    				// Stop motor
-    				PMSM_MotorStop();
-    			}
-    		}
+    		PMSM_SetPWM(0);
     	}
     }
 }

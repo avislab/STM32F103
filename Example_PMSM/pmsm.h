@@ -30,7 +30,6 @@ uint8_t PMSM_HallSensorsGetPosition(void);
 uint16_t PMSM_ADCToPWM(uint16_t ADC_VALUE);
 void PMSM_SetPWM(uint16_t PWM);
 
-void TIM4_IRQHandler(void);
 void PMSM_HallSensorsInit(void);
 void PMSM_PWMTimerInit(void);
 void PMSM_SinTimerInit(void);

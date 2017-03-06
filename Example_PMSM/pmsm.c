@@ -8,19 +8,21 @@
 
 #include "pmsm.h"
 
+void TIM4_IRQHandler(void);
+
 // Variables
-uint8_t PMSM_MotorRunFlag = 0;
-uint8_t PMSM_MotorSpin = PMSM_CW;
+volatile uint8_t PMSM_MotorRunFlag = 0;
+volatile uint8_t PMSM_MotorSpin = PMSM_CW;
 uint8_t PMSM_State[6] = {0, 0, 0, 0, 0, 0};
-uint8_t	PMSM_Sensors = 0;
-uint8_t PMSM_SinTableIndex = 0;
-uint16_t PMSM_PWM = 0;
-uint16_t PMSM_Speed = 0;
-uint16_t PMSM_Speed_prev = 0;
-uint8_t PMSM_ModeEnabled = 0;
+volatile uint8_t	PMSM_Sensors = 0;
+volatile uint8_t PMSM_SinTableIndex = 0;
+volatile uint16_t PMSM_PWM = 0;
+volatile uint16_t PMSM_Speed = 0;
+volatile uint16_t PMSM_Speed_prev = 0;
+volatile uint8_t PMSM_ModeEnabled = 0;
 // Timing (points in sine table)
 // sine table contains 192 items; 360/192 = 1.875 degrees per item
-int8_t PMSM_Timing = 15; // 15 * 1.875 = 28.125 degrees
+volatile static int8_t PMSM_Timing = 15; // 15 * 1.875 = 28.125 degrees
 
 // Forward Motor steps
 static const uint8_t PMSM_BRIDGE_STATE_FORWARD[8][6] =
@@ -353,8 +355,8 @@ void EXTI9_5_IRQHandler(void) {
 //				TIM4->ARR = PMSM_Speed / PMSM_SINTABLESIZE;
 				TIM4->ARR = PMSM_Speed / 32; //32 - number of items in the sine table between commutations (192/6 = 32)
 				TIM_Cmd(TIM4, ENABLE);
-			}
-//    	}
+//			}
+    	}
 
 		// If Hall sensors value is valid
     	if ((PMSM_Sensors > 0 ) & (PMSM_Sensors < 7)) {
@@ -626,16 +628,15 @@ uint16_t PMSM_ADCToPWM(uint16_t ADC_VALUE) {
 
 	if (ADC_VALUE < PMSM_ADC_STOP) {
 		return 0;
+	} else {
+		if (ADC_VALUE > PMSM_ADC_MAX) {
+			return PMSM_CHOPPER_PERIOD+1;
+		}
+		else {
+			tmp = (uint32_t)(ADC_VALUE-PMSM_ADC_STOP) * (uint32_t)PMSM_CHOPPER_PERIOD / (uint32_t)(PMSM_ADC_MAX - PMSM_ADC_START);
+			return (uint16_t) tmp;
+		}
 	}
-
-	if (ADC_VALUE > PMSM_ADC_MAX) {
-		return PMSM_CHOPPER_PERIOD+1;
-	}
-
-	tmp = (uint32_t)(ADC_VALUE-PMSM_ADC_STOP) * (uint32_t)PMSM_CHOPPER_PERIOD / (uint32_t)(PMSM_ADC_MAX - PMSM_ADC_START);
-
-	PMSM_PWM = (uint16_t) tmp;
-	return PMSM_PWM;
 }
 
 // Set PWM (same for all phases)
@@ -645,6 +646,9 @@ void PMSM_SetPWM(uint16_t PWM)
 		TIM1->CCR1 = PWM;
 		TIM1->CCR2 = PWM;
 		TIM1->CCR3 = PWM;
+	}
+	else {
+		PMSM_PWM = PWM;
 	}
 }
 
