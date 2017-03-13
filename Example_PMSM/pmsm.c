@@ -22,7 +22,7 @@ volatile uint16_t PMSM_Speed_prev = 0;
 volatile uint8_t PMSM_ModeEnabled = 0;
 // Timing (points in sine table)
 // sine table contains 192 items; 360/192 = 1.875 degrees per item
-volatile static int8_t PMSM_Timing = 15; // 15 * 1.875 = 28.125 degrees
+volatile static int8_t PMSM_Timing = 10; // 15 * 1.875 = 28.125 degrees
 
 // Forward Motor steps
 static const uint8_t PMSM_BRIDGE_STATE_FORWARD[8][6] =
@@ -367,10 +367,6 @@ void EXTI9_5_IRQHandler(void) {
     	// If motor is started then used a block commutation
     	if (PMSM_ModeEnabled == 0) {
     		PMSM_MotorCommutation(PMSM_Sensors);
-    	}
-    	else {
-    		// Run TIM4_IRQHandler to correct PWM value
-    		TIM4_IRQHandler();
     	}
     }
 }

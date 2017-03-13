@@ -23,15 +23,15 @@
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/CooCox/CoIDE/workspace/Example_PMSM/main.c" title="main.c" tooltip="C:/CooCox/CoIDE/workspace/Example_PMSM/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_PMSM/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="331" selectionTopPixel="197"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="369" selectionTopPixel="287"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="pmsm.c" partName="pmsm.c" path="C:/CooCox/CoIDE/workspace/Example_PMSM/pmsm.c" title="pmsm.c" tooltip="C:/CooCox/CoIDE/workspace/Example_PMSM/pmsm.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_PMSM/pmsm.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="737" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="pmsm.h" partName="pmsm.h" path="C:/CooCox/CoIDE/workspace/Example_PMSM/pmsm.h" title="pmsm.h" tooltip="C:/CooCox/CoIDE/workspace/Example_PMSM/pmsm.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Example_PMSM/pmsm.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="569" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="127" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -256,8 +256,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_PMSM/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_PMSM/pmsm.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_PMSM/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_PMSM/pmsm.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Example_PMSM/pmsm.h"/>
 </editors>
+<item historyLabel="pmsm.c" index="0">
+<position info="not_deleted" x="20674" y="0"/>
+</item>
+<item historyLabel="main.c" index="2">
+<position info="not_deleted" x="1282" y="0"/>
+</item>
 <item historyLabel="pmsm.c" index="0">
 <position info="not_deleted" x="19402" y="13"/>
 </item>
@@ -388,25 +395,19 @@
 <position info="not_deleted" x="739" y="0"/>
 </item>
 <item historyLabel="main.c" index="7">
-<position info="not_deleted" x="331" y="0"/>
+<position info="not_deleted" x="736" y="0"/>
 </item>
-<item historyLabel="pmsm.c" index="3">
-<position info="not_deleted" x="739" y="0"/>
+<item historyLabel="pmsm.c" index="8">
+<position/>
 </item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="331" y="0"/>
+<item historyLabel="pmsm.h" index="9">
+<position info="not_deleted" x="127" y="0"/>
 </item>
-<item historyLabel="pmsm.h" index="8">
-<position info="not_deleted" x="569" y="0"/>
-</item>
-<item historyLabel="pmsm.c" index="3">
-<position info="not_deleted" x="739" y="0"/>
-</item>
-<item historyLabel="pmsm.h" index="8">
-<position info="not_deleted" x="569" y="0"/>
+<item historyLabel="pmsm.c" index="8">
+<position info="not_deleted" x="737" y="0"/>
 </item>
 <item active="true" historyLabel="main.c" index="7">
-<position info="not_deleted" x="331" y="0"/>
+<position info="not_deleted" x="366" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -415,6 +416,12 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bldc.h" tooltip="Example_BLDC/bldc.h">
+<persistable path="/Example_BLDC/bldc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="bldc.c" tooltip="Example_BLDC/bldc.c">
+<persistable path="/Example_BLDC/bldc.c"/>
+</file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage/>
 </persistable>
@@ -451,12 +458,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.c" tooltip="Example_USB_Mass_Storage/stm_lib/src/stm32f10x_gpio.c">
 <persistable path="/Example_USB_Mass_Storage/stm_lib/src/stm32f10x_gpio.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f10x_gpio.h" tooltip="Example_USB_Mass_Storage/stm_lib/inc/stm32f10x_gpio.h">
-<persistable path="/Example_USB_Mass_Storage/stm_lib/inc/stm32f10x_gpio.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mass_mal.h" tooltip="Example_USB_Mass_Storage/USB/inc/mass_mal.h">
-<persistable path="/Example_USB_Mass_Storage/USB/inc/mass_mal.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tim2_delay.c" tooltip="Example_WS2812B/tim2_delay.c">
 <persistable path="/Example_WS2812B/tim2_delay.c"/>
