@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O2 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\Example_SSD1331\stm_lib\inc -I..\..\..\workspace\Example_SSD1331\cmsis -I..\..\..\workspace -I..\..\..\workspace\Example_SSD1331\stm_lib -I..\..\.. -I..\..\..\workspace\Example_SSD1331\cmsis_boot -I..\..\..\workspace\Example_SSD1331">
+      <target file="syscalls.o" lastModified="16094b879ba">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1600e638a61"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="16094b85d71">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="1600e35b846"/>
+      </target>
+      <target file="tim2_delay.o" lastModified="16094b87383">
+         <source file="..\..\..\tim2_delay.c" lastModified="157e1ba2f90"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="16094b8601d">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15fe057f5f7"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="16094b87fc6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="1600e34826d"/>
+      </target>
+      <target file="main.o" lastModified="16094b870b3">
+         <source file="..\..\..\main.c" lastModified="16094b84b8b"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="16094b86ab4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15fe057f5b7"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="16094b87702">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15fe057f643"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="16094b86770">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15fe057f5d7"/>
+      </target>
+      <target file="misc.o" lastModified="16094b87c6e">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="15fe0582854"/>
+      </target>
+      <target file="SSD1331.o" lastModified="16094b86500">
+         <source file="..\..\..\SSD1331.c" lastModified="1607007e305"/>
+      </target>
+   </processor>
+</history>
