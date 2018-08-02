@@ -4,25 +4,31 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../src/adc_dma.c \
 ../src/bldc.c \
 ../src/main.c \
 ../src/syscalls.c \
 ../src/system_stm32f10x.c \
-../src/systickdelay.c 
+../src/systickdelay.c \
+../src/usart_dma.c 
 
 OBJS += \
+./src/adc_dma.o \
 ./src/bldc.o \
 ./src/main.o \
 ./src/syscalls.o \
 ./src/system_stm32f10x.o \
-./src/systickdelay.o 
+./src/systickdelay.o \
+./src/usart_dma.o 
 
 C_DEPS += \
+./src/adc_dma.d \
 ./src/bldc.d \
 ./src/main.d \
 ./src/syscalls.d \
 ./src/system_stm32f10x.d \
-./src/systickdelay.d 
+./src/systickdelay.d \
+./src/usart_dma.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

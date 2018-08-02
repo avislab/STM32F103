@@ -32,6 +32,12 @@
 
 //==============================================
 
+#define ADC_CN_CURRENT 0
+#define ADC_CN_SUPPLY 1
+#define ADC_CN_POT 2
+
+//==============================================
+
 #define BLDC_STOP	0
 #define BLDC_START	1
 

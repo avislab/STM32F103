@@ -1,4 +1,5 @@
-src/main.o: ../src/main.c \
+src/adc_dma.o: ../src/adc_dma.c \
+ /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_adc.h \
  /home/andre/workspace/Example_BLDC_Sensorless/CMSIS/device/stm32f10x.h \
  /home/andre/workspace/Example_BLDC_Sensorless/CMSIS/core/core_cm3.h \
  /home/andre/workspace/Example_BLDC_Sensorless/CMSIS/device/system_stm32f10x.h \
@@ -26,12 +27,9 @@ src/main.o: ../src/main.c \
  /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_usart.h \
  /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_wwdg.h \
  /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/misc.h \
- /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_gpio.h \
- /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_rcc.h \
- /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_tim.h \
- /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_exti.h \
- ../src/sysclk.h ../src/systickdelay.h ../src/adc_dma.h \
- ../src/usart_dma.h ../src/bldc.h
+ /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_dma.h
+
+/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_adc.h:
 
 /home/andre/workspace/Example_BLDC_Sensorless/CMSIS/device/stm32f10x.h:
 
@@ -87,20 +85,4 @@ src/main.o: ../src/main.c \
 
 /home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/misc.h:
 
-/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_gpio.h:
-
-/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_rcc.h:
-
-/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_tim.h:
-
-/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_exti.h:
-
-../src/sysclk.h:
-
-../src/systickdelay.h:
-
-../src/adc_dma.h:
-
-../src/usart_dma.h:
-
-../src/bldc.h:
+/home/andre/workspace/Example_BLDC_Sensorless/StdPeriph_Driver/inc/stm32f10x_dma.h:

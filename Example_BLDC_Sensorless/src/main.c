@@ -3,17 +3,21 @@
 #include "stm32f10x_rcc.h"
 #include "stm32f10x_tim.h"
 #include "stm32f10x_exti.h"
-#include "stm32f10x_adc.h"
-#include "stm32f10x_dma.h"
 
+
+#include "stdio.h"
 #include "sysclk.h"
 #include "systickdelay.h"
 
 #include "adc_dma.h"
+#include "usart_dma.h"
+
 #include "bldc.h"
 
 int main(void)
 {
+	char buffer[120] = {'\0'};
+
 	uint16_t ADC_POT = 0;
 
 	// Set clock
@@ -22,16 +26,25 @@ int main(void)
 	sysTickDalayInit();
 
 	// ADC Init
-	ADC_DMA_init();
+	ADC_DMA_Init();
+
+	USART_DMA_Init();
+
 	// TIM1, TIM3, TIM4, outputs, inputs, interrupts, etc. Init
 	BLDC_Init();
 
     while(1)
     {
+    	if (USART_DMA_Ready()) {
+    		sprintf(buffer, "ADC:%d\r\n", ADC_DMA_GET(ADC_CN_CURRENT));
+    		USART_DMA_Send(buffer);
+    	}
+
     	// ======== Damper =========
+
     	/*
     	sysTickDalay(1);
-		if (ADCBuffer[0] > ADC_POT) {
+		if (ADC_DMA_GET(ADC_CN_POT) > ADC_POT) {
 			if (ADC_POT < 4096) {
 				ADC_POT++;
 			}
@@ -42,7 +55,8 @@ int main(void)
 			}
 		}
 		*/
-    	ADC_POT = ADCBuffer[0];
+
+    	ADC_POT = ADC_DMA_GET(ADC_CN_POT);
 		// =========================
 
 		if (ADC_POT > BLDC_ADC_START) { // Start

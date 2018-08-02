@@ -112,6 +112,9 @@ void TIM1_UP_IRQHandler(void) {
 	{
 		TIM_ClearITPendingBit(TIM1, TIM_IT_Update);
 		if (TIM1->CNT < BLDC_CHOPPER_PERIOD / 2 ) {
+			// Start ADC Conversion
+			ADC_SoftwareStartConvCmd ( ADC1 , ENABLE );
+
 			if (BEMF_TIMEOUT_COUNTER > BEMF_TIMEOUT) {
 				STATE = GPIO_ReadInputDataBit(GPIOC, GPIO_Pin_14);
 
