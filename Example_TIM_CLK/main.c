@@ -51,7 +51,7 @@ void TIM4_IRQHandler(void)
 {
         if (TIM_GetITStatus(TIM4, TIM_IT_Update) != RESET)
         {
-        	// Обов'язково скидаємо прапор. Якщо цього не зробити, після обробки переривання знову попадемо сюди
+        	// ГЋГЎГ®Гў'ГїГ§ГЄГ®ГўГ® Г±ГЄГЁГ¤Г ВєГ¬Г® ГЇГ°Г ГЇГ®Г°. ГџГЄГ№Г® Г¶ГјГ®ГЈГ® Г­ГҐ Г§Г°Г®ГЎГЁГІГЁ, ГЇВіГ±Г«Гї Г®ГЎГ°Г®ГЎГЄГЁ ГЇГҐГ°ГҐГ°ГЁГўГ Г­Г­Гї Г§Г­Г®ГўГі ГЇГ®ГЇГ Г¤ГҐГ¬Г® Г±ГѕГ¤ГЁ
         	TIM_ClearITPendingBit(TIM4, TIM_IT_Update);
 			GPIOC->ODR ^= GPIO_Pin_13;
         }
@@ -77,17 +77,26 @@ int main(void)
     TIM_TimeBaseInitTypeDef TIMER_InitStructure;
     NVIC_InitTypeDef NVIC_InitStructure;
 
-  	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE); // Вмикаємо тактування таймера TIM4
+  	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE); // Г‚Г¬ГЁГЄГ ВєГ¬Г® ГІГ ГЄГІГіГўГ Г­Г­Гї ГІГ Г©Г¬ГҐГ°Г  TIM4
 
   	TIM_TimeBaseStructInit(&TIMER_InitStructure);
-    TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up; // Режим рахунку
-    TIMER_InitStructure.TIM_Prescaler = 8000; // Поділювач частоти для таймера
-    // Треба ще враховувати як налаштовані поділювачі RCC_HCLKConfig( RCC_SYSCLK_Div1); RCC_PCLK1Config(RCC_HCLK_Div1);
-    // У нашому випадку обидва  = RCC_SYSCLK_Div1, тобто до поділювача таймера доходить частота зовнішнього кварцу (8МГц)
-    TIMER_InitStructure.TIM_Period = 500; // Період, через який виконується переривання по переповненню  // F=8000000/8000/500 = 2 рази/сек.
+    TIMER_InitStructure.TIM_CounterMode = TIM_CounterMode_Up; // ГђГҐГ¦ГЁГ¬ Г°Г ГµГіГ­ГЄГі
+    TIMER_InitStructure.TIM_Prescaler = 8000; // ГЏГ®Г¤ВіГ«ГѕГўГ Г· Г·Г Г±ГІГ®ГІГЁ Г¤Г«Гї ГІГ Г©Г¬ГҐГ°Г 
+    // Г’Г°ГҐГЎГ  Г№ГҐ ГўГ°Г ГµГ®ГўГіГўГ ГІГЁ ГїГЄ Г­Г Г«Г ГёГІГ®ГўГ Г­Ві ГЇГ®Г¤ВіГ«ГѕГўГ Г·Ві RCC_HCLKConfig( RCC_SYSCLK_Div1); RCC_PCLK1Config(RCC_HCLK_Div1);
+    // Г“ Г­Г ГёГ®Г¬Гі ГўГЁГЇГ Г¤ГЄГі Г®ГЎГЁГ¤ГўГ   = RCC_SYSCLK_Div1, ГІГ®ГЎГІГ® Г¤Г® ГЇГ®Г¤ВіГ«ГѕГўГ Г·Г  ГІГ Г©Г¬ГҐГ°Г  Г¤Г®ГµГ®Г¤ГЁГІГј Г·Г Г±ГІГ®ГІГ  Г§Г®ГўГ­ВіГёГ­ГјГ®ГЈГ® ГЄГўГ Г°Г¶Гі (8ГЊГѓГ¶)
+    TIMER_InitStructure.TIM_Period = 500; // ГЏГҐГ°ВіГ®Г¤, Г·ГҐГ°ГҐГ§ ГїГЄГЁГ© ГўГЁГЄГ®Г­ГіВєГІГјГ±Гї ГЇГҐГ°ГҐГ°ГЁГўГ Г­Г­Гї ГЇГ® ГЇГҐГ°ГҐГЇГ®ГўГ­ГҐГ­Г­Гѕ  // F=8000000/8000/500 = 2 Г°Г Г§ГЁ/Г±ГҐГЄ.
     TIM_TimeBaseInit(TIM4, &TIMER_InitStructure);
-    TIM_ITConfig(TIM4, TIM_IT_Update, ENABLE); // Вмикаємо переривання по переповненню таймера
-    TIM_Cmd(TIM4, ENABLE);// Вмикаємо таймер
+	
+    /* 
+        This next line needs to be put here!!!
+        That's why the TIM_TimeBaseInit(TIM2, &TIMER_InitStructure); line sets the UIF flag
+        We are clearing it!!!
+    */
+        
+    TIM_ClearITPendingBit(TIM2,TIM_IT_Update);
+	
+    TIM_ITConfig(TIM4, TIM_IT_Update, ENABLE); // Г‚Г¬ГЁГЄГ ВєГ¬Г® ГЇГҐГ°ГҐГ°ГЁГўГ Г­Г­Гї ГЇГ® ГЇГҐГ°ГҐГЇГ®ГўГ­ГҐГ­Г­Гѕ ГІГ Г©Г¬ГҐГ°Г 
+    TIM_Cmd(TIM4, ENABLE);// Г‚Г¬ГЁГЄГ ВєГ¬Г® ГІГ Г©Г¬ГҐГ°
 
     /* NVIC Configuration */
     /* Enable the TIM4_IRQn Interrupt */
@@ -99,6 +108,6 @@ int main(void)
 
     while(1)
     {
-    	// У головному циклі робимо що нам заманеться.
+    	// Г“ ГЈГ®Г«Г®ГўГ­Г®Г¬Гі Г¶ГЁГЄГ«Ві Г°Г®ГЎГЁГ¬Г® Г№Г® Г­Г Г¬ Г§Г Г¬Г Г­ГҐГІГјГ±Гї.
     }
 }
